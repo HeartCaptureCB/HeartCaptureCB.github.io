@@ -1,0 +1,17 @@
+.team-card {
+    /* height:  */
+}
+.team-card img.team-icon-bg {
+    width: 30%;
+    z-index: 2;
+}
+.team-card img.team-textbox-bg {
+    width: 90%;
+    z-index: 1;
+}
+
+p.team-textbox {
+    color: red;
+}
+
+/* animated-element text-size-16 slow margin-bottom-10 */
