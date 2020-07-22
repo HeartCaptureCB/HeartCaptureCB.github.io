@@ -1,17 +1,210 @@
 .team-card {
-    /* height:  */
+    position: relative;
+    margin-bottom: 20px;
 }
-.team-card img.team-icon-bg {
-    width: 30%;
+.team-icon-bg {
+    position: relative;
+    text-align: center;
+    display: block;
+    background-size:300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
     z-index: 2;
 }
-.team-card img.team-textbox-bg {
-    width: 90%;
+
+.team-icon-bg img.team-icon {
+    clip-path: circle(50%);
+    height: 280px;
+    width: 280px;
+}
+
+.team-nametag-bg {
+    background-image: url(/img/team/nametag-bg.png);
+    position: relative;
+    text-align: left;
+    background-size:auto 45px;
+    background-repeat: no-repeat;
+    margin-top: -295px;
+    margin-left: 300px;
+    padding: 9px;
+    padding-left: 52px;
+    height:320px;
+    z-index: 3;
+}
+.team-nametag-bg p {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    /* -webkit-text-stroke: 2px rgb(222, 54, 95); */
+}
+
+.team-textbox-bg {
+    background-image:url(/img/team/textbox-bg.png);
+    position: relative;
+    text-align: left;
+    background-size:100% 260px;
+    background-repeat: no-repeat;
+    margin-top: -305px;
+    margin-left: 120px;
+    padding: 1.6rem;
+    padding-top: 2.4rem;
+    padding-left: 200px;
+    height:320px;
     z-index: 1;
 }
 
 p.team-textbox {
-    color: red;
+    color: black;
 }
 
-/* animated-element text-size-16 slow margin-bottom-10 */
+.art-credit {
+    position: relative;
+    z-index: 4;
+    margin-left: 240px;
+    margin-top: -60px;
+}
+.art-credit p {
+    color:black;
+
+
+}
+.art-credit p a {
+    color: rgb(126, 39, 65);
+    font-weight: bold;
+}
+.art-credit p a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.social-container {
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    margin-top: -68px;
+    /* margin-right: 100px; */
+    margin-left: calc(100% - 200px); 
+    clip: rect(-20px, 180px, 38px, 0px);
+}
+
+.social-container a {
+    /* position: absolute; */
+    padding: 0px 16px;
+    /* background-position: 5px 1000px; */
+    width: 80px;
+    /* height: 0px; */
+
+}
+
+.social-container a:hover {
+    margin-top:-11px;
+}
+
+@media screen and (max-width:920px) {
+    .team-card {
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .team-icon-bg {
+        position: relative;
+        text-align: center;
+        display: block;
+        background-size:300px;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        height: 300px;
+        width: 300px;
+        z-index: 2;
+    }
+    
+    .team-icon-bg img.team-icon {
+        clip-path: circle(50%);
+        height: 280px;
+        width: 280px;
+    }
+    
+    .team-nametag-bg {
+        display: none;
+        background-image: url(/img/team/nametag-bg.png);
+        position: relative;
+        text-align: left;
+        background-size:auto 45px;
+        background-repeat: no-repeat;
+        /* margin-top: 0px; */
+        margin: auto;
+        padding: 9px;
+        padding-left: 52px;
+        height:320px;
+        z-index: 3;
+    }
+    .team-nametag-bg p {
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        /* -webkit-text-stroke: 2px rgb(222, 54, 95); */
+    }
+    
+    .team-textbox-bg {
+        display: none;
+        position: relative;
+        text-align: left;
+        background-size:100% 260px;
+        background-repeat: no-repeat;
+        margin-top: -305px;
+        margin-left: 120px;
+        padding: 1.6rem;
+        padding-top: 2.4rem;
+        padding-left: 200px;
+        height:320px;
+        z-index: 1;
+    }
+    
+    p.team-textbox {
+        color: black;
+    }
+    
+    .art-credit {
+        display: none;
+        position: relative;
+        z-index: 4;
+        margin-left: 240px;
+        margin-top: -60px;
+    }
+    .art-credit p {
+        color:black;
+    }
+    .art-credit p a {
+        color: rgb(126, 39, 65);
+        font-weight: bold;
+    }
+    .art-credit p a:hover {
+        color: rgb(255, 255, 255);
+    }
+    
+    .social-container {
+        display: none;
+        position: absolute;
+        z-index: 5;
+        display: flex;
+        flex-direction: row;
+        margin-top: -63px;
+        /* margin-right: 100px; */
+        margin-left: calc(100% - 200px); 
+        clip: rect(-20px, 180px, 34px, 0px);
+    }
+    
+    .social-container a {
+        display: none;
+        /* position: absolute; */
+        padding: 0px 16px;
+        /* background-position: 5px 1000px; */
+        width: 80px;
+        /* height: 0px; */
+    
+    }
+    
+    .social-container a:hover {
+        margin-top:-16px;
+    }
+}
