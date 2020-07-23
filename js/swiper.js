@@ -1,39 +1,68 @@
-var mySwiper = new Swiper('.swiper-container', {
-    // Optional parameters
-    // direction: 'vertical',
+var mySwiper1 = new Swiper('.swiper1', {
+    // autoHeight: true,
     loop: true,
 
+    effect: 'flip',
+    grabCursor: true,
     // If we need pagination
     pagination: {
-        el: '.swiper-pagination',
+        el: '.swiper-pagination1',
     },
 
     // Navigation arrows
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next1',
+        prevEl: '.swiper-button-prev1',
     },
 
     // And if we need scrollbar
     scrollbar: {
-        el: '.swiper-scrollbar',
+        el: '.swiper-scrollbar1',
     },
 })
 
-var coll = document.getElementsByClassName("collapsible");
-var i;
+var mySwiper2 = new Swiper('.swiper2', {
+    // autoHeight: true,
+    loop: true,
+    effect: 'flip',
+    grabCursor: true,
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination2',
+    },
 
-for (i = 0; i < coll.length; i++) {
-coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "none") {
-    content.style.display = "flex";
-    } else {
-    content.style.display = "none";
-    }
-});
-}
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next2',
+        prevEl: '.swiper-button-prev2',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+        el: '.swiper-scrollbar2',
+    },
+})
+
+// var coll = document.getElementsByClassName("collapsible");
+// var i;
+
+// for (i = 0; i < coll.length; i++) {
+// coll[i].addEventListener("click", function() {
+//     this.classList.toggle("active");
+//     var content = this.nextElementSibling;
+//     // alert(content.style.s);
+//     if (content.style.display === "flex") {
+//     content.style.display = "none";
+//     mySwiper.updateAutoHeight();
+//     } else {
+//     content.style.display = "flex";
+//     mySwiper.updateAutoHeight();
+//     }
+//     // mySwiper.update();
+// });
+// }
+
+
 
 (function() {
 

@@ -75,7 +75,8 @@ blockquote::before {
   content: "“";
   display: block;
   float: left;
-  font-family: georgia;
+  font-family: 'Nunito', sans-serif;
+  /* font-family: georgia; */
   font-size: 80px;
   height: 30px;
   left: -40px;
@@ -127,6 +128,39 @@ iframe {
   line-height: 45px;
   padding-right: 10px;
   padding-top: 5px;
+}
+
+.hoverlink:hover {
+  color: rgb(255, 66, 123);
+}
+.social {
+  text-align: right;
+}
+
+.fa {
+  padding: 0px;
+  width: 50px;
+  text-align: right;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  color: rgb(255, 66, 123);
+}
+
+/* Set a specific color for each brand */
+
+/* Youtube */
+.fa-youtube {
+  background: none;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: none;
+  color: white;
 }
 
 /* Tables */
@@ -668,7 +702,8 @@ a.text-more-info {
 }
 a.text-more-info:after {
   content: "\f006";
-  font-family: mfg;
+  font-family: 'Nunito', sans-serif;
+  /* font-family: mfg; */
   font-size: 0.8rem;
   margin-left: 0.625rem;
   transition: all 0.20s linear 0s;
@@ -728,7 +763,8 @@ a.text-more-info:hover:after {
   color: #7697a2!important;
   border: 1px solid #7697a2;
   border-radius: 0;
-  font-family: mfg;
+  font-family: 'Nunito', sans-serif;
+  /* font-family: mfg; */
   height: 40px;
   line-height: 40px;
   margin-top: -20px;
@@ -1479,7 +1515,7 @@ form.customform input:hover, form.customform textarea:hover, form.customform sel
 body, p { 
   color: #999;
   font-weight: 300;
-  font-family: "Poppins"; 
+  font-family: 'Nunito'; 
   font-size: 0.92rem;  
 } 
 .background-white, .background-white p, a.background-white, .background-white a, .background-white a:link, .background-white a:visited, .background-white a:hover, .background-white a:active {
@@ -1487,11 +1523,11 @@ body, p {
 }
 h1, .h1 {
   font-weight: 100;
-  font-family: "Poppins";
+  font-family: 'Nunito';
 }
 h2, h3, h4, h5, h6, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 200;
-  font-family: "Poppins";
+  font-family: 'Nunito';
 }
 .background-grey h1, .background-grey h2, .background-grey h3, .background-grey h4, .background-grey h5, .background-grey h6, .background-grey .h1, .background-grey .h2, .background-grey .h3, .background-grey .h4, .background-grey .h5, .background-grey .h6 {
   color: #454545;
@@ -1553,7 +1589,7 @@ hr.break.background-white, .primary-color-white hr.break-small.background-primar
 hr.break.background-primary, .primary-color-primary hr.break.background-primary {
   background: none!important;
   background-color: none!important;
-  border-top: 2px dotted #28a5df;
+  border-top: 2px dotted rgb(255, 66, 123); 
 }
 hr.break.background-dark, .primary-color-dark hr.break.background-primary {
   background: none!important;
@@ -1685,14 +1721,14 @@ nav.fixed .logo img {
 
 /* Menu dott color */
 .background-white-dott .top-nav > ul > li > a::before, .primary-color-white .background-primary-dott .top-nav > ul > li > a::before {background: #fff none repeat scroll 0 0;}
-.background-primary-dott .top-nav > ul > li > a::before, .primary-color-primary .background-primary-dott .top-nav > ul > li > a::before {background: #28a5df none repeat scroll 0 0;} 
+.background-primary-dott .top-nav > ul > li > a::before, .primary-color-primary .background-primary-dott .top-nav > ul > li > a::before {background: rgb(255, 66, 123) none repeat scroll 0 0;} 
 .background-dark-dott .top-nav > ul > li > a::before, .primary-color-dark .background-primary-dott .top-nav > ul > li > a::before {background: #434343 none repeat scroll 0 0;}
 
 /* Menu font color */
 .background-white-dott .top-nav > ul ul li.active-item > a, .primary-color-white .background-primary-dott .top-nav > ul ul li.active-item > a,
 .background-white-dott .top-nav > ul ul li > a:hover, .primary-color-white .background-primary-dott .top-nav > ul ul li > a:hover {color: #fff !important;}
 .background-primary-dott .top-nav > ul ul li.active-item > a, .primary-color-primary .background-primary-dott .top-nav > ul ul li.active-item > a,
-.background-primary-dott .top-nav > ul ul li > a:hover, .primary-color-primary .background-primary-dott .top-nav > ul ul li > a:hover {color: #28a5df !important;} 
+.background-primary-dott .top-nav > ul ul li > a:hover, .primary-color-primary .background-primary-dott .top-nav > ul ul li > a:hover {color: rgb(255, 66, 123) !important;} 
 .background-dark-dott .top-nav > ul ul li.active-item > a, .primary-color-dark .background-primary-dott .top-nav > ul ul li.active-item > a,
 .background-dark-dott .top-nav > ul ul li > a:hover, .primary-color-dark .background-primary-dott .top-nav > ul ul li > a:hover {color: #434343 !important;}
 

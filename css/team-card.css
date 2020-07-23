@@ -1,19 +1,24 @@
-/* .swiper-container {
-    width: 100%;
-    height: auto;
-} */
-
-
-/* .swiper-pagination {
+.swiper-pagination {
     position: relative;
     z-index: 1;
     margin-bottom: -10px;
-} */
+}
 
 .swiper-slide {
     text-align: center;
-    font-size: 18px;
-    margin-top: 3em;
+    /* font-size: 18px; */
+    margin-top: 1em;
+}
+
+
+.swiper-container .swiper-button-prev, .swiper-container .swiper-button-next {
+    top: 34vw;
+    width: 10px;
+    color: rgb(255, 66, 123); 
+}
+
+.swiper-container .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: rgb(255, 66, 123); 
 }
 
 .team-card {
@@ -25,9 +30,9 @@
     display: block;
     position: relative;
     z-index: 2;
-    width: 160px;
-    height: 160px;
-    background-size: 100% 160px;
+    width: 220px;
+    height: 220px;
+    background-size: 100% 220px;
     background-repeat: no-repeat;
     margin: auto;
     /* padding-top:35%; */
@@ -35,20 +40,19 @@
 
 .art-credit {
     position: relative;
-    z-index: 4;
-    margin-top: -6px;
+    z-index: 12;
 }
 
 .art-credit p {
-    font-size: 9px;
+    font-size: 2.7vw;
     color:black;
 }
 .art-credit p a {
-    color: rgb(126, 39, 65);
+    color: rgb(71, 35, 46);
     font-weight: bold;
 }
 .art-credit p a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 66, 123);
 }
 
 .team-nametag-bg {
@@ -56,87 +60,71 @@
     background-image: url(/img/team/nametag-bg.png);
     position: relative;
     z-index: 3;
-    background-size: 140px;
+    background-size: 100%;
     background-repeat: no-repeat;
-    margin: auto;
-    margin-top: 0px;
-    height: 29px;
-    width: 140px;
+    margin: 0 auto;
+    margin-top: 3vw;
+    /* margin-top: 0px;
+    height: 29px; */
+    height: 7vw;
+    width: 40%;
     text-align: left;
-    /* padding: 0px; */
-    padding-left: 30px;
+    /* padding: 1vw; */
+    padding-left: 10%;
 }
 
-/* .team-nametag-bg {
-    display: block;
-    background-image: url(/img/team/nametag-bg.png);
-    position: relative;
-    z-index: 3;
-    width: 30%;
-    height: 0;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    margin: auto;
-    margin-top: 0px;
-    text-align: left;
-    padding-left: 30px;
-    padding-top: 5.85%;
-} */
 .team-nametag-bg p {
-    font-size: 13px;
+    font-size: 3.5vw;
     font-weight: bold;
     color: white;
 }
-.collapsible {
+
+/* .collapsible {
     background: none;
     border: none;
     cursor: pointer;
+} */
+
+/* .arrow{
+    border: solid rgb(222, 55, 95);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    position: relative;
+    z-index: 10;
 }
-.arrow {
-    border: solid rgb(75, 75, 75);
+
+.active .arrow {
+    border: solid rgb(244, 171, 181);
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
     z-index: 10;
-}
+} */
 
-.down {
+/* .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-}
+} */
 
-.active .arrow{
-    border: solid rgb(180, 180, 180);
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    position: relative;
-    z-index: 10;
-}
 
-.active .expand-bio {
-    display: none;
+.expand-bio {
     position: relative;
-    /* overflow: auto; */
-    /* height: auto; */
-    /* height: 130vw; */
     display: flex;
     flex-direction: row;
+    margin-top: 2vw;
 }
 
-.expand-bio .team-textbox-bg {
-    display: block;
+.team-textbox-bg {
     background-image: url("/img/team/side-textbox-bg.png");
     position: relative;
     z-index: 1;
-    /* max-height: 100%; */
     width: 70%;
     background-size:100% 100%;
     background-repeat: no-repeat;
     margin: 0 auto;
     padding: 6% 7%;
     text-align: left;
-
 }
 
 p.team-textbox {
@@ -147,20 +135,18 @@ p.team-textbox {
 }
 
 .expand-bio .social-container {
-    display: block;
     position: absolute;
     z-index: 0;
     display: flex;
     flex-direction: column;
-    margin-top: 15px;
+    margin-top: 10vw;
     margin-left: 85%;
 }
 
 .social-container a {
     padding-top: 5px;
     padding-bottom: 5px;
-    /* padding-left: 4px; */
-    width: 39px;
+    width: 8vw;
 }
 .social-container a img.default{
     display: none;
@@ -170,102 +156,143 @@ p.team-textbox {
     display: block;
 }
 
-@media screen and (min-width:920px) {
+@media screen and (min-width:768px) {
+    .swiper-container .swiper-button-prev, .swiper-container .swiper-button-next {
+        top: 50%;
+        width: 10px;
+        color: rgb(255, 66, 123); 
+    }
     .team-card {
         position: relative;
         margin-bottom: 20px;
     }
+    
     .team-icon-bg {
-        position: relative;
-        text-align: center;
         display: block;
-        background-size:300px;
-        background-repeat: no-repeat;
-        height: 300px;
-        width: 300px;
+        position: relative;
         z-index: 2;
+        height: 280px;
+        width: 280px;
+        background-size:280px;
+        background-repeat: no-repeat;
+        margin: 0;
+        margin-left: 2.5em;
+        /* text-align: center; */
+    }
+
+    .art-credit {
+        position: relative;
+        z-index: 12;
+        margin-left: 240px;
+        margin-top: -20px;
+        text-align: left;
+    }
+
+    .art-credit p {
+        color:black;
+        font-size: 16px;
+    }
+    .art-credit p a {
+        color: rgb(71, 35, 46);
+        font-weight: bold;
+    }
+    .art-credit p a:hover {
+        color: rgb(255, 66, 123);
     }
 
     .team-nametag-bg {
+        display: block;
         background-image: url(/img/team/nametag-bg.png);
         position: relative;
-        text-align: left;
-        background-size:auto 45px;
-        background-repeat: no-repeat;
-        margin-top: -295px;
-        margin-left: 300px;
-        padding: 9px;
-        padding-left: 52px;
-        height:320px;
         z-index: 3;
+        background-size:auto 50px;
+        background-repeat: no-repeat;
+        margin-top: -290px;
+        margin-left: 310px;
+        height:320px;
+        text-align: left;
+        padding: 12px;
+        padding-left: 60px;
     }
+
     .team-nametag-bg p {
-        font-size: 18px;
+        font-size: 30px;
         font-weight: bold;
         color: white;
         /* -webkit-text-stroke: 2px rgb(222, 54, 95); */
+    }
+
+    .expand-bio {
+        position: relative;
+        display: block;
+        /* flex-direction: row; */
+        margin-top: -297px;
+        margin-left: 240px;
     }
 
     .team-textbox-bg {
         display: block;
         background-image:url(/img/team/textbox-bg.png);
         position: relative;
-        text-align: left;
-        background-size:100% 260px;
-        background-repeat: no-repeat;
-        margin-top: -305px;
-        margin-left: 120px;
-        padding: 1.6rem;
-        padding-top: 2.4rem;
-        padding-left: 200px;
-        height:320px;
         z-index: 1;
+        background-size:100% 240px;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 1.6rem;
+        padding-top: 2rem;
+        padding-left: 95px;
+        padding-right: 20px;
+        height: 240px;
+        width: 95%;
+        text-align: left;
     }
 
     p.team-textbox {
         color: black;
+        font-size: 1.6vw;
+        line-height: 2vw;
+        padding-bottom: 1.6vw;
     }
 
-    .art-credit {
-        position: relative;
-        z-index: 4;
-        margin-left: 240px;
-        margin-top: -60px;
-    }
-    .art-credit p {
-        color:black;
 
-
-    }
-    .art-credit p a {
-        color: rgb(126, 39, 65);
-        font-weight: bold;
-    }
-    .art-credit p a:hover {
-        color: rgb(255, 255, 255);
-    }
-
-    .social-container {
+    .expand-bio .social-container {
         position: absolute;
         z-index: 5;
         display: flex;
         flex-direction: row;
-        margin-top: -68px;
+        margin-top: -32px;
         /* margin-right: 100px; */
-        margin-left: calc(100% - 200px); 
-        clip: rect(-20px, 180px, 38px, 0px);
+        margin-left: calc(100% - 180px); 
+        clip: rect(-20px, 120px, 28px, 0px);
     }
 
-    .social-container a {
+    .expand-bio .social-container a {
         /* position: absolute; */
-        padding: 0px 16px;
+        padding: 0px 7px;
         /* background-position: 5px 1000px; */
-        width: 80px;
+        width: 50px;
         /* height: 0px; */
+    }
 
+    /* margin-top: -42px;
+    margin-left: calc(100% - 240px); 
+    clip: rect(-20px, 150px, 38px, 0px);
+}
+
+.expand-bio .social-container a {
+    padding: 0px 16px;
+    width: 80px;
+} */
+
+    .social-container a img.default{
+        display: block;
+    }
+    
+    .social-container a img.side {
+        display: none;
     }
 
     .social-container a:hover {
-        margin-top:-11px;
+        margin-top:-6px;
     }
 }

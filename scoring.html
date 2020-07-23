@@ -21,16 +21,16 @@
     <!-- CUSTOM STYLE -->      
     <link rel="stylesheet" href="css/template-style.css">
     <link rel="stylesheet" href="css/team-card.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,700,900&amp;subset=latin-ext" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>   
   </head>
 
-  <body class="size-1280" style="background: radial-gradient(circle, rgba(226,187,172,1) 0%, rgba(202, 133, 147, 1) 100%)">
-    <!-- PREMIUM FEATURES BUTTON -->
-  	<a target="_blank" class="hide-s" href="../template/virtua-premium-responsive-business-template/" style="position:fixed;top:120px;right:-14px;z-index:10;"><img src="img/premium-features.png" alt=""></a>
+  <body class="size-1280" style="background: linear-gradient(90deg, rgba(220,78,114,1) 0%, rgba(244,187,184,1) 50%, rgba(220,78,114,1) 100%);">
     <!-- HEADER -->
     <header role="banner" class="position-absolute">    
       <!-- Top Navigation -->
@@ -56,7 +56,7 @@
                     <ul>
                       <li><a href="schedule.html">Schedule</a></li>
                       <li><a href="rules.html">Rules</a></li>
-                      <li><a href="scoring.html">Scoring Rubric</a></li>
+                      <li><a href="scoring.html">Judges &amp; Scoring</a></li>
                     </ul>
                 </li>
                 <li>
@@ -104,7 +104,7 @@
     <!-- MAIN -->
     <main role="main">    
       <!-- Header -->
-      <section class="section-top-padding" style="background-color:rgba(255, 255, 255, 0.767);">
+      <section class="section-top-padding" style="background-color:white;">
         <div class="line text-center">
           <h2 class="text-size-50 text-m-size-40"><b>Our Team</b></h2>
           <hr class="break background-primary break-small break-center margin-bottom-50">
@@ -112,133 +112,251 @@
         <div class="line">      
           <div class="m-12 l-12">
             <h3 class="animated-element text-strong text-size-25 text-line-height-1 text-center margin-bottom-20">Organisers</h3>
-            <div class="swiper-container">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                      <div class="team-card">
-                        <div class="team-icon-bg" style="background-image:url(/img/team/kasumi-icon.png);"></div>
-                        <div class="art-credit"><p>Art by <a href="https://www.instagram.com/keitherine_/">keitherine_</a></p></div>
-                        <div class="team-nametag-bg"><p>Kasumi</p></div>
-                        <button type="button" class="collapsible">
-                          <i class="arrow down"></i>
-                        </button>
-                        <div class="expand-bio">
-                          <div class="team-textbox-bg">
-                            <p class="team-textbox">
-                              Hello everyone! I’m Kasumi, one of the organisers and writers for HCCB! 
-                              Incidentally, I’m also the one who came up with the CB’s concept :) 
-                            </p>
-                            <p class="team-textbox">
-                              I’ve participated in around ten different CBs since I’ve become a 
-                              youtaite and I’ve been staff for quite a few, too! HCCB is the second 
-                              CB I’ve hosted so far, but to be honest I think it’s probably the most 
-                              complicated thing I’ll ever organise. Regardless, I hope you all enjoy 
-                              the competition and I can’t wait to see what you guys can make! 
-                            </p>
-                          </div>
-                          <div class="social-container">
-                            <a href="https://twitter.com/K4SUM1CCH1">
-                              <img src="/img/team/socialtag-twitter.png" class="default">
-                              <img src="/img/team/side-socialtag-twitter.png" class="side">
-                            </a>
-                            <a href="https://www.youtube.com/channel/UCx_vNT8sE4WI-NvTJDiP5DA">
-                              <img src="/img/team/socialtag-youtube.png" class="default">
-                              <img src="/img/team/side-socialtag-youtube.png" class="side">
-                            </a>
-                          </div>
-                        </div>
+            <div class="swiper-container swiper1">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide" id="kasumi">
+                  <div class="team-card">
+                    <div class="team-icon-bg" style="background-image:url(/img/team/kasumi-icon.png);"></div>
+                    <div class="art-credit"><p>Art by <a href="https://www.instagram.com/keitherine_/">keitherine_</a></p></div>
+                    <div class="team-nametag-bg"><p>Kasumi</p></div>
+                    <div class="expand-bio">
+                      <div class="team-textbox-bg">
+                        <p class="team-textbox">
+                          Hello everyone! I’m Kasumi, one of the organisers and writers for HCCB! 
+                          Incidentally, I’m also the one who came up with the CB’s concept :) 
+                        </p>
+                        <p class="team-textbox">
+                          I’ve participated in around ten different CBs since I’ve become a 
+                          youtaite and I’ve been staff for quite a few, too! HCCB is the second 
+                          CB I’ve hosted so far, but to be honest I think it’s probably the most 
+                          complicated thing I’ll ever organise. Regardless, I hope you all enjoy 
+                          the competition and I can’t wait to see what you guys can make! 
+                        </p>
+                      </div>
+                      <div class="social-container">
+                        <a href="https://twitter.com/K4SUM1CCH1">
+                          <img src="/img/team/socialtag-twitter.png" class="default">
+                          <img src="/img/team/side-socialtag-twitter.png" class="side">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCx_vNT8sE4WI-NvTJDiP5DA">
+                          <img src="/img/team/socialtag-youtube.png" class="default">
+                          <img src="/img/team/side-socialtag-youtube.png" class="side">
+                        </a>
                       </div>
                     </div>
-
-                    <div class="swiper-slide">
-                      <div class="team-card">
-                        <div class="team-icon-bg" style="background-image:url(/img/team/Lunarveil-icon.png);"></div>
-                        <div class="team-nametag-bg"><p>Lunarveil</p></div>
-                        <div class="team-textbox-bg">
-                          <p class="team-textbox">
-                            Hi everyone! I’m Lunarveil — one of the organizers as well as animation 
-                            staff for HCCB. I’m a vocalist and animator who loves everything cute 
-                            and sweet! I also love taking on CBs to have a fun time meeting new people 
-                            and growing alongside friends. As one of the organizers, I’m super excited 
-                            to see people create amazing groups and put together heart-capturing entries. 
-                            And as an animator behind-the-scenes, I cant wait to bring our lovely cast 
-                            of characters and their stories to life for you all to enjoy. Cheers!
-                          </p>
-                        </div>
-                        <div class="art-credit"><p>Art by <a href="https://twitter.com/_IYUSE_">@_IYUSE_</a></p></div>
-                          <div class="social-container">
-                            <a href="https://www.twitter.com/lunarveil">
-                              <img src="/img/team/socialtag-twitter.png" alt="">
-                            </a>
-                            <a href="https://www.youtube.com/c/lunarveil">
-                              <img src="/img/team/socialtag-youtube.png" alt="">
-                            </a>
-                          </div>
+                  </div>
+                </div>
+                    
+                <div class="swiper-slide"  id="lunarveil">
+                  <div class="team-card">
+                    <div class="team-icon-bg" style="background-image:url(/img/team/Lunarveil-icon.png);"></div>
+                    <div class="art-credit"><p>Art by <a href="https://twitter.com/_IYUSE_">@_IYUSE_</a></p></div>
+                    <div class="team-nametag-bg"><p>Lunarveil</p></div>
+                    <div class="expand-bio">
+                      <div class="team-textbox-bg">
+                        <p class="team-textbox">
+                          Hi everyone! I’m Lunarveil — one of the organizers as well as animation 
+                          staff for HCCB. I’m a vocalist and animator who loves everything cute 
+                          and sweet! I also love taking on CBs to have a fun time meeting new people 
+                          and growing alongside friends. As one of the organizers, I’m super excited 
+                          to see people create amazing groups and put together heart-capturing entries. 
+                          And as an animator behind-the-scenes, I cant wait to bring our lovely cast 
+                          of characters and their stories to life for you all to enjoy. Cheers!
+                        </p>
+                      </div>
+                      <div class="social-container">
+                        <a href="https://www.twitter.com/lunarveil">
+                          <img src="/img/team/socialtag-twitter.png" class="default">
+                          <img src="/img/team/side-socialtag-twitter.png" class="side">
+                        </a>
+                        <a href="https://www.youtube.com/c/lunarveil">
+                          <img src="/img/team/socialtag-youtube.png" class="default">
+                          <img src="/img/team/side-socialtag-youtube.png" class="side">
+                        </a>
                       </div>
                     </div>
-                    <div class="swiper-slide">Slide 3</div>
+                  </div>
                 </div>
 
-            
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            
-                <!-- If we need scrollbar -->
-                <!-- <div class="swiper-scrollbar"></div> -->
+                <div class="swiper-slide"  id="KenYuufutsuki">
+                  <div class="team-card">
+                    <div class="team-icon-bg" style="background-image:url(/img/team/KenYuufutsuki-icon.png);"></div>
+                    <div class="art-credit"><p>Art by <a href="https://twitter.com/KenYuufutsuki">@KenYuufutsuki</a></p></div>
+                    <div class="team-nametag-bg"><p>ゆうふつき</p></div>
+                    <div class="expand-bio">
+                      <div class="team-textbox-bg">
+                        <p class="team-textbox">
+                          Hello
+                        </p>
+                      </div>
+                      <div class="social-container">
+                        <a href="https://twitter.com/KenYuufutsuki">
+                          <img src="/img/team/socialtag-twitter.png" class="default">
+                          <img src="/img/team/side-socialtag-twitter.png" class="side">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+              <div class="swiper-button-prev swiper-button-prev1"></div>
+              <div class="swiper-button-next swiper-button-next1"></div>
+              <div class="swiper-pagination swiper-pagination1"></div>
+            </div>
+
+            <h3 class="animated-element text-strong text-size-25 text-line-height-1 text-center margin-top-40 margin-bottom-20">Visual Staff</h3>
+            <div class="swiper-container swiper2">
+              <div class="swiper-button-prev swiper-button-prev2"></div>
+              <div class="swiper-button-next swiper-button-next2"></div>
+              <div class="swiper-pagination swiper-pagination2"></div>
+
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"  id="ryu">
+                  <div class="team-card">
+                    <div class="team-icon-bg" style="background-image:url(/img/team/icon-bg.png);"></div>
+                    <div class="art-credit"><p>Art by <a href="https://twitter.com/_IYUSE_">???</a></p></div>
+                    <div class="team-nametag-bg"><p>Akirito Ryū</p></div>
+                    <div class="expand-bio">
+                      <div class="team-textbox-bg">
+                        <p class="team-textbox">
+                            Hello fellow music and art lovers. My name is Akirito Ryū, but just 
+                            call me Ryū. I am a freelance artist and a vocalist who hopes to make 
+                            a living doing what I love and enjoy. I have only ever been in one CB 
+                            group as a vocalist and backup artist, so I am still very new to CBs 
+                            in general. I wish everyone the best of luck!
+                        </p>
+                      </div>
+                      <div class="social-container">
+                        <a href="https://twitter.com/AkiritoRyu">
+                          <img src="/img/team/socialtag-twitter.png" class="default">
+                          <img src="/img/team/side-socialtag-twitter.png" class="side">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCl9_Zig5VqCqeaEjNQU7Z3Q/">
+                          <img src="/img/team/socialtag-youtube.png" class="default">
+                          <img src="/img/team/side-socialtag-youtube.png" class="side">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide"  id="ButterflyWisps">
+                  <div class="team-card">
+                    <div class="team-icon-bg" style="background-image:url(/img/team/butterflywisps-icon.png);"></div>
+                    <div class="art-credit"><p>Art by <a href="https://twitter.com/ButterflyWisps">@ButterflyWisps</a></p></div>
+                    <div class="team-nametag-bg"><p>Butterfly Wisps</p></div>
+                    <div class="expand-bio">
+                      <div class="team-textbox-bg">
+                        <p class="team-textbox">
+                            Hello everyone! I’m Butterfly Wisps and I’m one of the staff artists 
+                            and writers for this CB. I’ve been in the Youtaite community as an 
+                            artist for a couple years and I’ve participated in probably a few too 
+                            many CBs. I’ve also dabbled in the visual novel community for about 7 
+                            years now. I hope the characters we draw will make you fall in love and 
+                            fight over them~! I can’t wait to see how you all respond with your 
+                            entries. Best of luck to you all!
+                        </p>
+                      </div>
+                      <div class="social-container">
+                        <a href="https://twitter.com/ButterflyWisps">
+                          <img src="/img/team/socialtag-twitter.png" class="default">
+                          <img src="/img/team/side-socialtag-twitter.png" class="side">
+                        </a>
+                        <a href="https://www.instagram.com/ButterflyWisps/">
+                          <img src="/img/team/socialtag-instagram.png" class="default">
+                          <img src="/img/team/side-socialtag-instagram.png" class="side">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide"  id="ryn">
+                  <div class="team-card">
+                    <div class="team-icon-bg" style="background-image:url(/img/team/rynacel-icon.png);"></div>
+                    <div class="art-credit"><p>Art by <a href="https://twitter.com/rynacel">@RYNACEL</a></p></div>
+                    <div class="team-nametag-bg"><p>RYNACEL</p></div>
+                    <div class="expand-bio">
+                      <div class="team-textbox-bg">
+                        <p class="team-textbox">
+                            Hello everyone! I'm Rynacel (formerly known as Ryn_Cherry), a staff 
+                            artist and the website developer for this CB. I've joined 
+                            multiple CBs as an artist and am really excited to be on the other 
+                            side of the competition this time~ I jumped at the chance of staffing 
+                            for this because I loveee cute romance stories~. 
+                            I hope to bring to you some lovable characters who will accompany you 
+                            through the stressful deadlines and maybe capture your hearts? Can't 
+                            wait to see how the romance plays out ;) May cupid be on your side!
+                        </p>
+                      </div>
+                      <div class="social-container">
+                        <a href="https://twitter.com/rynacel">
+                          <img src="/img/team/socialtag-twitter.png" class="default">
+                          <img src="/img/team/side-socialtag-twitter.png" class="side">
+                        </a>
+                        <a href="https://ryncherrystore.weebly.com/">
+                          <img src="/img/team/socialtag-other.png" class="default">
+                          <img src="/img/team/side-socialtag-other.png" class="side">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide"  id="phin">
+                  <div class="team-card">
+                    <div class="team-icon-bg" style="background-image:url(/img/team/phin-icon.png);"></div>
+                    <div class="art-credit"><p>Art by <a href="https://twitter.com/sandwichsaumon">phin</a></p></div>
+                    <div class="team-nametag-bg"><p>phin</p></div>
+                    <div class="expand-bio">
+                      <div class="team-textbox-bg">
+                        <p class="team-textbox">
+                            Hello! I'm phin, an animation staff for this CB. I've been animating 
+                            cbs for a while and I am also a design student, overall curious about 
+                            discovering and learning different stuff ! I am really excited to be 
+                            part of this CB to help create content that you will like~ I am 
+                            looking forward to seeing all of your entries, and wish you best of 
+                            luck for this cb. Have fun!
+                        </p>
+                      </div>
+                      <div class="social-container">
+                        <a href="https://twitter.com/sandwichsaumon">
+                          <img src="/img/team/socialtag-twitter.png" class="default">
+                          <img src="/img/team/side-socialtag-twitter.png" class="side">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCBOGZ3enINl6p1iJZUbHoYA">
+                          <img src="/img/team/socialtag-youtube.png" class="default">
+                          <img src="/img/team/side-socialtag-youtube.png" class="side">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
             </div>
           </div>  
         </div>
       </section>
 
-      <!-- Section 7 -->
-      <section class="section-small-padding background-dark text-center">      
-        <div class="line">
-          <h2 class="text-white text-size-30 text-m-size-40 margin-bottom-20">This is not a real game</h2>
-          <div class="m-10 l-6 xl-4 center">
-            <div class="margin">
-              <a class="s-12 m-6 margin-s-bottom" href="/">
-                <img class="full-img right" src="img/google-play.svg" alt="">
-              </a>
-              <a class="s-12 m-6" href="/">
-                <img class="full-img" src="img/app-store.svg" alt="">
-              </a>
-            </div>
-          </div>                                                                                               
-        </div>       
-      </section>     
-      
     </main>
     
     <!-- FOOTER -->
     <footer>
-      <!-- Social -->
-      <div class="background-primary padding text-center">
-        <a href="/"><i class="icon-facebook_circle text-size-25 text-dark"></i></a> 
-        <a href="/"><i class="icon-twitter_circle text-size-25 text-dark"></i></a>
-        <a href="/"><i class="icon-google_plus_circle text-size-25 text-dark"></i></a>
-        <a href="/"><i class="icon-instagram_circle text-size-25 text-dark"></i></a> 
-        <a href="/"><i class="icon-linked_in_circle text-size-25 text-dark"></i></a>                                                                       
-      </div>
-      <!-- Main Footer -->
-      
-      <div class="background-dark">
-         <div class="line">
-            <hr class="break margin-top-bottom-0" style="border-color: #777;">
-         </div>
-      </div>
       <!-- Bottom Footer -->
       <section class="padding-2x background-dark full-width">
         <div class="line">
-          <div class="s-12 l-6">
-            <p class="text-size-12">Copyright 2019, Vision Design - graphic zoo</p>
-            <p class="text-size-12">Logo and GUI by ButterflyWisps, Illustrations by HCCB'21 Art Staff</p>
-            <p class="text-size-12">Site Coding by RYNACEL, Content by HCCB'21 Team</p>
+          <div class="s-12 l-8">
+            <p class="text-size-12">Graphic Design by <a class="hoverlink" href="http://twitter.com/ButterflyWisps">Butterfly Wisps</a> | Character Illustrations by HCCB'21 Art Staff</p>
+            <p class="text-size-12">Website Coding by RYNACEL | Website Content by HCCB'21 Team</p>
           </div>
-          <div class="s-12 l-6">
-            <a class="right text-size-12 text-primary-hover" href="http://www.myresponsee.com" title="Responsee - lightweight responsive framework">Design and coding<br> by Responsee Team</a>
+
+          <div class="social s-12 l-4 right">
+            <a href="https://twitter.com/HeartCaptureCB"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
           </div>
         </div>  
       </section>
