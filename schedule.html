@@ -12,90 +12,35 @@
     <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/icons.css">
     <link rel="stylesheet" href="css/responsee.css">
     <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="owl-carousel/owl.theme.css">
     <link rel="stylesheet" href="css/lightcase.css">
-    <!-- CUSTOM STYLE -->      
     <link rel="stylesheet" href="css/template-style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>   
+    
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous">
+    </script>
+    <script> 
+      $(function(){
+      $("head").load("head.html");
+      $("#header").load("header.html"); 
+      $("#footer").load("footer.html"); 
+      });
+    </script> 
   </head>
 
   <body class="size-1280" style="background: linear-gradient(90deg, rgba(220,78,114,1) 0%, rgba(244,187,184,1) 50%, rgba(220,78,114,1) 100%);">
-      <!-- HEADER -->
-    <header role="banner" class="position-absolute">    
-      <!-- Top Navigation -->
-      <nav class="background-transparent background-primary-dott full-width sticky">          
-        <div class="top-nav"> 
-          <!-- mobile version logo -->              
-          <div class="logo hide-l hide-xl hide-xxl">
-             <a href="index.html" class="logo">
-              <!-- Logo White Version -->
-              <img class="logo-white" src="img/logo.bmp" alt="">
-              <!-- Logo Dark Version -->
-              <img class="logo-dark" src="img/logo.bmp" alt="">
-            </a>
-          </div>                  
-          <p class="nav-text"></p>
-          
-          <!-- left menu items -->
-          <div class="top-nav left-menu">
-             <ul class="right top-ul chevron">
-                <li><a href="index.html">Home</a></li>
-                <li>
-                  <a>CB Info</a>
-                    <ul>
-                      <li><a href="schedule.html">Schedule</a></li>
-                      <li><a href="rules.html">Rules</a></li>
-                      <li><a href="judging.html">Judges &amp; Scoring</a></li>
-                    </ul>
-                </li>
-                <li>
-                  <a>Lore</a>
-                    <ul>
-                      <li><a href="story.html">Story</a></li>
-                      <li><a href="characters.html">Characters</a></li>
-                      <li><a href="schoolpaper.html">School Paper</a></li>
-                      <li><a href="quests.html">Quests</a></li>
-                      <li><a href="items.html">Items</a></li>
-                    </ul>
-                </li>
-             </ul>
-          </div>
-          
-          <!-- logo -->
-          <ul class="logo-menu">
-            <a href="index.html" class="logo">
-              <!-- Logo White Version -->
-              <img class="logo-white" src="img/logo.bmp" alt="">
-              <!-- Logo Dark Version -->
-              <img class="logo-dark" src="img/logo.bmp" alt="">
-            </a>
-          </ul>
-          
-          <!-- right menu items -->
-          <div class="top-nav right-menu">
-             <ul class="top-ul chevron">
-                <li>
-                  <a>Results</a>
-                  <ul>
-                      <li><a href="chapter1.html">chapter 1</a></li>
-                      <li><a href="chapter2.html">chapter 2</a></li>
-                      <li><a href="chapter3.html">chapter 3</a></li>
-                  </ul>
-                </li>
-                <li><a href="our-team.html">Our Team</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-             </ul> 
-          </div>
-        </div>
-      </nav>
-    </header>
+    <div id="header"></div>
     
     <!-- MAIN -->
     <main role="main">    
@@ -144,23 +89,7 @@
       </section>
     </main>
     
-    <!-- FOOTER -->
-    <footer>
-      <!-- Bottom Footer -->
-      <section class="padding-2x background-dark full-width">
-        <div class="line">
-          <div class="s-12 l-8">
-            <p class="text-size-12">Graphic Design by <a href="http://twitter.com/ButterflyWisps">Butterfly Wisps</a> | Character Illustrations by HCCB'21 Art Staff</p>
-            <p class="text-size-12">Website Coding by <a href="http://twitter.com/rynacel">RYNACEL</a> | Website Content by HCCB'21 Team</p>
-          </div>
-
-          <div class="social s-12 l-4 right">
-            <a href="https://twitter.com/HeartCaptureCB"><i class="fa fa-youtube"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-          </div>
-        </div>  
-      </section>  
-    </footer>
+    <div id="footer"></div>
     <script type="text/javascript" src="js/responsee.js"></script>
     <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
     <script type="text/javascript" src="js/template-scripts.js"></script> 
