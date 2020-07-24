@@ -24,6 +24,7 @@
 .team-card {
     position: relative;
     margin-bottom: 20px;
+    color: #512B29;
 }
 
 .team-icon-bg {
@@ -45,19 +46,19 @@
 
 .art-credit p {
     font-size: 2.7vw;
-    color:black;
+    color: #512B29;
 }
 .art-credit p a {
     color: rgb(71, 35, 46);
     font-weight: bold;
+    color: #BE8664 !important;
 }
 .art-credit p a:hover {
-    color: rgb(255, 66, 123);
+    color: rgb(255, 66, 123) !important;
 }
 
 .team-nametag-bg {
     display: block;
-    background-image: url(/img/team/nametag-bg.png);
     position: relative;
     z-index: 3;
     background-size: 100%;
@@ -73,11 +74,11 @@
     padding-left: 10%;
 }
 
-.team-nametag-bg p {
+/* .team-nametag-bg p {
     font-size: 3.5vw;
     font-weight: bold;
     color: white;
-}
+} */
 
 /* .collapsible {
     background: none;
@@ -128,7 +129,7 @@
 }
 
 p.team-textbox {
-    color: black;
+    color: #512B29;
     font-size: 3vw;
     line-height: 5vw;
     padding-bottom: 3vw;
@@ -157,13 +158,21 @@ p.team-textbox {
 }
 
 @media screen and (min-width:768px) {
+    .swiper-container {
+        height: 320px;
+    }
     .swiper-container .swiper-button-prev, .swiper-container .swiper-button-next {
         top: 50%;
         width: 10px;
         color: rgb(255, 66, 123); 
     }
+
+    .swiper-pagination {
+        /* margin-bottom: -20px; */
+    }
     .team-card {
         position: relative;
+        height: 330px;
         margin-bottom: 20px;
     }
     
@@ -189,16 +198,14 @@ p.team-textbox {
     }
 
     .art-credit p {
-        color:black;
-        font-size: 16px;
+        font-size: 19px;
     }
     .art-credit p a {
-        color: rgb(71, 35, 46);
         font-weight: bold;
     }
-    .art-credit p a:hover {
+    /* .art-credit p a:hover {
         color: rgb(255, 66, 123);
-    }
+    } */
 
     .team-nametag-bg {
         display: block;
@@ -248,7 +255,7 @@ p.team-textbox {
     }
 
     p.team-textbox {
-        color: black;
+        /* color: black; */
         font-size: 1.6vw;
         line-height: 2vw;
         padding-bottom: 1.6vw;

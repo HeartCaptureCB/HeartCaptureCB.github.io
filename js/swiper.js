@@ -2,7 +2,7 @@ var mySwiper1 = new Swiper('.swiper1', {
     // autoHeight: true,
     loop: true,
 
-    effect: 'flip',
+    // effect: 'flip',
     grabCursor: true,
     // If we need pagination
     pagination: {
@@ -42,6 +42,51 @@ var mySwiper2 = new Swiper('.swiper2', {
         el: '.swiper-scrollbar2',
     },
 })
+
+var mySwiper3 = new Swiper('.swiper3', {
+    // autoHeight: true,
+    loop: true,
+    // effect: 'flip',
+    grabCursor: true,
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination3',
+    },
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next3',
+        prevEl: '.swiper-button-prev3',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+        el: '.swiper-scrollbar3',
+    },
+})
+
+var mySwiper4 = new Swiper('.swiper4', {
+    // autoHeight: true,
+    loop: true,
+    // effect: 'flip',
+    grabCursor: true,
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination4',
+    },
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next4',
+        prevEl: '.swiper-button-prev4',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+        el: '.swiper-scrollbar4',
+    },
+})
+
 
 // var coll = document.getElementsByClassName("collapsible");
 // var i;
