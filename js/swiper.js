@@ -24,7 +24,7 @@ var mySwiper1 = new Swiper('.swiper1', {
 var mySwiper2 = new Swiper('.swiper2', {
     // autoHeight: true,
     loop: true,
-    effect: 'flip',
+    // effect: 'flip',
     grabCursor: true,
     // If we need pagination
     pagination: {
