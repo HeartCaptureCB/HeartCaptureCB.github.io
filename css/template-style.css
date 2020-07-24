@@ -1155,7 +1155,7 @@ form.customform input:hover, form.customform textarea:hover, form.customform sel
       display: inline-block;
       font-size: 3rem;
       margin-left: 0;
-      margin-top: 30px;
+      margin-top: 10px;
     }
     .top-nav li a, .background-white .top-nav li a {
       background: #454545 none repeat scroll 0 0;
@@ -1851,10 +1851,13 @@ a.tab-label.active-btn {
     display:none;
   }
   .nav-text::after {
-    color: rgb(255, 66, 123); 
+    color: #454545;
   }
   .nav-text {
     margin-right: 0;
+  }
+  .nav-text::after .show-menu {
+    color: rgb(255, 66, 123); 
   }
   .fixed {
     position: relative;
