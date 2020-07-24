@@ -67,8 +67,8 @@
     margin-top: 3vw;
     /* margin-top: 0px;
     height: 29px; */
-    height: 7vw;
-    width: 40%;
+    height: 9vw;
+    width: 52%;
     text-align: left;
     /* padding: 1vw; */
     padding-left: 10%;
@@ -113,7 +113,7 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    margin-top: 2vw;
+    margin-top: 3vw;
 }
 
 .team-textbox-bg {
@@ -198,7 +198,7 @@ p.team-textbox {
     }
 
     .art-credit p {
-        font-size: 19px;
+        font-size: 12px;
     }
     .art-credit p a {
         font-weight: bold;
