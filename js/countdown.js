@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var date_string = "July 21, 2020 00:00:00 GMT"
+var date_string = "January 5, 2021 00:00:00 GMT"
 var countDownDate = new Date(date_string).getTime();
 
 // Update the count down every 1 second

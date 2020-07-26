@@ -37,7 +37,7 @@ a, a:link, a:visited, a:hover, a:active {
   -moz-transition:color 0.20s linear 0s;
   -webkit-transition:color 0.20s linear 0s;
 }  
-a:hover {color:#B6C900;}
+a:hover {color:rgb(255, 66, 123);}
 p,li,dl,blockquote,table,kbd {
   font-size: 0.85rem;
   line-height: 1.6;
@@ -45,6 +45,10 @@ p,li,dl,blockquote,table,kbd {
 b,strong {font-weight:700;}
 .text-center {text-align:center!important;}
 .text-right {text-align:right!important;}
+.text-italic {font-style: italic!important;}
+.text-strikethrough {text-decoration: line-through!important;}
+.text-underline {text-decoration: underline!important;}
+.text-overline {text-decoration: overline!important;}
 img {
   border:0;
   display:block;

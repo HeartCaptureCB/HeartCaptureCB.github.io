@@ -1528,6 +1528,9 @@ body, p {
 .background-white, .background-white p, a.background-white, .background-white a, .background-white a:link, .background-white a:visited, .background-white a:hover, .background-white a:active {
   color: #999;
 }
+.background-white a:hover, .background-white a:active {
+  color: rgb(255, 66, 123);
+}
 h1, .h1 {
   font-weight: 100;
   font-family: 'Nunito';
