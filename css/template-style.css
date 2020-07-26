@@ -1151,9 +1151,9 @@ form.customform input:hover, form.customform textarea:hover, form.customform sel
       display: block;
       font-size: 1.2rem;
       line-height: 2.5rem;
-      margin-right: 0.625rem;
+      margin-right: 0.5rem;
       max-width: 100%;
-      text-align: center;
+      text-align: right;
       vertical-align: middle;
       position: relative;
     }
@@ -1863,9 +1863,7 @@ a.tab-label.active-btn {
   .nav-text::after {
     color: #454545;
   }
-  .nav-text {
-    margin-right: 0;
-  }
+
   .nav-text::after {
     color: #454545;
   }
