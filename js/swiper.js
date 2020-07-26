@@ -1,6 +1,6 @@
 var mySwiper1 = new Swiper('.swiper1', {
     // autoHeight: true,
-    loop: true,
+    // loop: true,
 
     // effect: 'flip',
     grabCursor: true,
@@ -23,7 +23,7 @@ var mySwiper1 = new Swiper('.swiper1', {
 
 var mySwiper2 = new Swiper('.swiper2', {
     // autoHeight: true,
-    loop: true,
+    // loop: true,
     // effect: 'flip',
     grabCursor: true,
     // If we need pagination
@@ -45,7 +45,7 @@ var mySwiper2 = new Swiper('.swiper2', {
 
 var mySwiper3 = new Swiper('.swiper3', {
     // autoHeight: true,
-    loop: true,
+    // loop: true,
     // effect: 'flip',
     grabCursor: true,
     // If we need pagination
@@ -67,7 +67,7 @@ var mySwiper3 = new Swiper('.swiper3', {
 
 var mySwiper4 = new Swiper('.swiper4', {
     // autoHeight: true,
-    loop: true,
+    // loop: true,
     // effect: 'flip',
     grabCursor: true,
     // If we need pagination
