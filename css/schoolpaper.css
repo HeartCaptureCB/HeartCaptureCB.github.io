@@ -94,8 +94,12 @@
     }
 
     .side-column {
-        flex:100%;
+        flex:50%;
         margin-right: 1em;
+    }
+
+    .main-column {
+        flex:100%;
     }
 
     .profile img {
