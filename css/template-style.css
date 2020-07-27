@@ -1526,7 +1526,8 @@ body, p {
   font-size: 0.92rem;  
 } 
 .background-white, .background-white p, a.background-white, .background-white a, .background-white a:link, .background-white a:visited, .background-white a:hover, .background-white a:active {
-  color: #999;
+  color: #512B29;
+  /* color: #999; */
 }
 .background-white a:hover, .background-white a:active {
   color: rgb(255, 66, 123);
