@@ -38,7 +38,7 @@
    
 }
 
-.about, .tips{
+.about {
     text-align: center;
     margin-top: 1rem;
 }
@@ -56,6 +56,8 @@
     border-style: dashed;
     border-width: 2px;
     padding: 1em;
+    text-align: justify;
+    margin-top: 1rem;
 }
 
 .twitter {
@@ -71,6 +73,7 @@
     border-width: 2px;
     padding: 1em;
     margin-top: 1em;
+    text-align: justify;
 }
 
 .gossip {

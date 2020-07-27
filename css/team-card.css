@@ -133,6 +133,8 @@ p.team-textbox {
     font-size: 3vw;
     line-height: 5vw;
     padding-bottom: 3vw;
+    text-align: justify;
+    padding-right: 0.5em;
 }
 
 .expand-bio .social-container {
