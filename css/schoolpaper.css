@@ -1,0 +1,109 @@
+.schoolpaper {
+    display: flex;
+    flex-direction: column;
+}
+
+.mailbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.mailbox-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.mailbox h3, .gossip h3 {
+    border-style: dashed;
+    border-width: 2px;
+    padding: .5em 0;
+}
+
+.side-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: dashed;
+    border-width: 2px;
+    padding: 1em; 
+}
+
+.profile img {
+    width: 70%;
+   
+}
+
+.about, .tips{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.about h4, .tips h4, .twitter h4 {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.about p {
+    line-height: 20px;
+}
+
+.tips {
+    border-style: dashed;
+    border-width: 2px;
+    padding: 1em;
+}
+
+.twitter {
+    border-style: dashed;
+    border-width: 2px;
+    padding: 1em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.main-column {
+    border-style: dashed;
+    border-width: 2px;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.gossip {
+    margin-top: 50px;
+}
+
+@media screen and (min-width:768px) {
+    .schoolpaper {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .mailbox {
+        flex: 80%;
+        margin-right:2em;
+    }
+
+    .mailbox-content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .side-column {
+        flex:100%;
+        margin-right: 1em;
+    }
+
+    .profile img {
+        width: 100%;
+    }
+
+    .main-column, .gossip {
+        margin-top: 0;
+    }
+
+}
