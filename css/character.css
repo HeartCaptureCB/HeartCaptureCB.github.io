@@ -8,6 +8,11 @@
     border-radius: 5px;
 }
 
+.character-img {
+    padding: 3vw;
+    /* background-color: white; */
+}
+
 .fadeout{
     display: none;
     position: absolute; 
@@ -17,7 +22,7 @@
     /* height: 100%;  */
     height: 160vw;
     background:transparent;
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 60%,rgb(255, 221, 227) 90%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 60%,rgb(255, 221, 227) 82%);
     /* background: rgba(255, 255, 255, 0.582); */
 }
 
@@ -51,7 +56,7 @@
     text-align: center;
 }
 
-.eng-name {
+.jpn-name {
     font-size: 7vw;
     margin-top: 3vw;
     font-weight: bold;
@@ -60,9 +65,18 @@
 .cv {
     position: relative;
     font-size: 4vw;
+    font-weight: bold;
     margin-top: 2.7vw;
     /* color: #BE8664 !important; */
 }
+
+.cv a {
+    color: rgb(71, 35, 46);
+}
+.cv a:hover {
+    color: rgb(255, 66, 123) !important;
+}
+
 .character-traits {
     display: flex;
     flex-direction: column;
@@ -265,7 +279,7 @@ cursor: pointer;
     .character-card {
         display: flex;
         flex-direction: row;
-        background-color: rgb(255, 203, 212);
+        /* background-color: rgb(255, 203, 212); */
         border-radius: 4px;
         /* margin: 1rem; */
         padding-top: 2rem;
@@ -277,7 +291,8 @@ cursor: pointer;
     }
 
     .character-img {
-        width: 35%;
+        width: 100%;
+        padding: 0;
         /* background-color: white; */
     }
 
@@ -290,10 +305,10 @@ cursor: pointer;
 
 
     .character-voice {
-        position: relative;
+        position: absolute;
         float: left;
         margin: 0;
-        margin-left: calc(-6vw);
+        margin-left: 28vw;
         margin-top: 2vw;
     }
 
@@ -303,7 +318,7 @@ cursor: pointer;
     
     .character-info {
         margin-left: 3rem;
-        width:65%;
+        width:55%;
         margin-right: 2rem;
     }
 
@@ -314,7 +329,7 @@ cursor: pointer;
     }    
     
     .character-bio img.name {
-        width: 55%;
+        width: 50%;
         margin: 0;
     }
 
@@ -322,7 +337,7 @@ cursor: pointer;
         text-align: left;
     }
 
-    p.eng-name {
+    p.jpn-name {
         font-size: 3vw;
         font-weight: bold;
         margin: 0;
@@ -381,11 +396,11 @@ cursor: pointer;
     }
     
     .left .bio-text{
-        width: 32vw;
+        width: 27vw;
     }
 
     .right .bio-text{
-        width: 31vw;
+        width: 26vw;
         margin-left: -1.7vw;
     }
   
@@ -395,12 +410,13 @@ cursor: pointer;
         background-repeat: no-repeat;
         margin: 0;
         margin-top: .8em;
+        margin-bottom: .8em;
         /* margin-right: 2rem; */
         /* margin-top: 0.5rem; */
         /* margin-bottom: 0; */
         padding: 1.8em;
         /* width: calc(65vw - 3rem); */
-        height: 22vw;
+        height: 18vw;
     }
     
     .character-text p {
@@ -412,7 +428,7 @@ cursor: pointer;
         margin: 0;
         margin-left: -0.5vw;
         margin-top: -0.5vw;
-        margin-right: -vw;
+        margin-right: -0.5vw;
         color: white;
     }
 
