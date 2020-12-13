@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/lightcase.css">
     <link rel="stylesheet" href="css/template-style.css">
     <link rel="stylesheet" href="css/team-card.css">
+    <link rel="stylesheet" href="css/homepage.css">
     <!-- sortable table styling: https://github.com/HubSpot/sortable -->
     <link rel="stylesheet" href="css/sortable-theme-light.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -51,8 +52,16 @@
     <main role="main">    
       <!-- Header -->
       <header class="section-top-padding background-transparent text-center">
-        <h1 class="text-white text-size-50 text-line-height-1 margin-bottom-20">Registration Opens In</h1>
-        <p id="countdown" class="text-white text-size-50 text-line-height-1 margin-bottom-20"></p>
+        <h1 class="text-white text-size-50 text-line-height-1 margin-bottom-20">Registration Open</h1>
+        <div class="countdown">
+          <ul>
+            <li><span id="days"></span>days</li>
+            <li><span id="hours"></span>Hours</li>
+            <li><span id="minutes"></span>Minutes</li>
+            <li><span id="seconds"></span>Seconds</li>
+          </ul>
+        </div>
+        <!-- <p id="countdown" class="text-white text-size-50 text-line-height-1 margin-bottom-20"></p> -->
         <p id="deadline" class="text-white text-size-30 margin-bottom-30"></p>
         <!-- <p><a href="#">Registry</a> • <a href="#">Twitter Interactions</a></p> -->
       </header>
