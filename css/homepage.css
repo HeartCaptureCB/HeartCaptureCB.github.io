@@ -1,26 +1,112 @@
- 
-  .countdown {
-    color: #333;
+.groupshot {
+    background-image: url("../img/home/school.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.groupshot img {
+    margin-left: -5rem;
+}
+
+.round-status{
+    position: absolute;
+    right: 0vw;
+    top: 151px;
+    /* top: calc(151px + 1vw); */
+    text-transform: uppercase;
+}
+
+.round-status p {
+    font-size: 1.7vw;
+    font-weight: 800; 
+    text-shadow: 0px 0px 2px white;
+}
+
+.countdown {
+    color: rgb(81,43,41);
     margin: 0 auto;
     text-align: center;
+    font-weight: 600;
+    /* -webkit-text-stroke: 0.3px white; */
+    text-shadow: 0px 0px 3px white;
   }
   
+.countdown ul {
+    padding: 0;
+}
   
 .countdown ul li {
     display: inline-block;
-    font-size: 1.125rem;
-    padding: .75rem;
+    font-size: 0.8rem;
+    padding: .1rem;
     list-style-type: none;
     text-transform: uppercase;
+    width: 3rem;
   }
   
 .countdown ul li span {
+    color: white;
     display: block;
-    font-size: 3.375rem;
-    background: black;
+    font-size: 2rem;
+    background: rgb(81,43,41);
+    -webkit-text-stroke: 0%;
+    text-align: center;
     border-radius: 4px;
 }
 
+#deadline {
+    font-size:1rem;
+}
+
+/* .round-links {
+    position: relative;
+    margin-right: -10px;
+} */
+
+img.arrow {
+    width: 14rem;
+}
+
+.round-button {
+    display: flex;
+    flex-direction: column;
+    background: pink;
+    margin: 0;
+}
+
+.round-button ul {
+    list-style: none;
+    padding-left: 0;    
+}
+
+.round-button ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1px;
+}
+
+.bio-icon {
+    z-index: 2;
+    height: 40px;
+}
+
+.bio-text {
+    z-index: 1;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 3px;
+    border-color: rgb(81,43,41);
+    background-color: white;
+    height: 32px;
+    padding: 0; 
+    margin-left: -.8rem;
+    margin-right: 0;
+    padding-left: 5vw;
+    width: 97vw;
+    font-size: 13px;
+    text-transform: none;
+}
   /* .message {
       font-size: 4rem;
     }
@@ -36,11 +122,56 @@
 
 @media screen and (min-width:768px) {
     .countdown ul li {
-        font-size: 1.5em;
-        padding: 1em;
+        /* font-size: 10px;
+        padding: 1px; */
     }
     
     .countdown ul li span {
-        font-size: 4.5rem;
+        /* font-size: 3rem; */
+    }
+
+    .round-button {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .round-button ul {
+        list-style: none;
+        padding-left: 0;   
+        margin-top: 10px; 
+        margin-bottom: 10px; 
+        
+    }
+    
+    .round-button ul li {
+        display: flex;
+        flex-direction: row;
+        /* align-items: left; */
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .round-button .bio-icon {
+        z-index: 2;
+        height: 38px;
+    }
+    
+    
+    .round-button .bio-text {
+        position: absolute;
+        z-index: 1;
+        border-style: solid;
+        border-width: .25vw;
+        border-radius: 3px;
+        border-color: rgb(81,43,41);
+        border-right: none;
+        background-color: white;
+        height: 32px;
+        width: 14rem;
+        margin-left: 1vw;
+        padding-left: 2.3vw;
+        font-size: 16px;
+        text-align: left;
+        font-weight: bold;
     }
 }

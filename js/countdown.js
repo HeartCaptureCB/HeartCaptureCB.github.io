@@ -5,7 +5,9 @@
         day = hour * 24;
 
   // let birthday = "Jan 5, 2021 00:00:00 GMT",
-  let birthday = "Dec 13, 2020 14:13:00 GMT",
+  let birthdate = "Jan 5, 2021",
+      birthtime = " 00:00:00 GMT"
+      birthday = birthdate + birthtime,
       countDown = new Date(birthday).getTime(),
       x = setInterval(function() {    
 
@@ -23,19 +25,20 @@
               countdown = document.getElementById("countdown"),
               content = document.getElementById("content");
 
-            document.getElementById("days").innerText = 0,
-            document.getElementById("hours").innerText = 0,
-            document.getElementById("minutes").innerText = 0,
-            document.getElementById("seconds").innerText = 0;
+            document.getElementById("days").innerText = "00",
+            document.getElementById("hours").innerText = "00",
+            document.getElementById("minutes").innerText = "00",
+            document.getElementById("seconds").innerText = "00";
     
-          headline.innerText = "END";
-          countdown.style.display = "none";
-          content.style.display = "block";
+          // headline.innerText = "END";
+          // countdown.style.display = "none";
+          // content.style.display = "block";
 
           clearInterval(x);
         }
         //seconds
-        document.getElementById("deadline").innerHTML = birthday;
+        document.getElementById("deadline-date").innerHTML = birthdate;
+        document.getElementById("deadline-time").innerHTML = birthtime;
       }, 0);
   }());
 
