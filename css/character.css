@@ -27,14 +27,14 @@
 }
 
 .character-voice {
-    position: relative;
-    float: right;
-    margin-top: -65vw;
-    margin-right: 9vw;
+    position: absolute;
+    margin-top: -30vw;
+    margin-left: 70vw;
+    
 }
 
 .character-voice img {
-    width: 10vw;
+    width: 14vw;
 }
 
 .character-info {
@@ -43,7 +43,7 @@
 .character-bio {
     /* display: none; */
     position: relative;
-    margin-top: -50vw;
+    margin-top: -10vw;
     align-items: center;
 }
 
@@ -52,9 +52,9 @@
     margin: 0 auto;
 }
 
-.character-bio p {
+/* .character-bio p {
     text-align: center;
-}
+} */
 
 .jpn-name {
     font-size: 7vw;
@@ -64,9 +64,11 @@
 
 .cv {
     position: relative;
-    font-size: 4vw;
+    text-align: center;
+    font-size: 5vw;
     font-weight: bold;
     margin-top: 2.7vw;
+    margin-bottom: 2.7vw;
     /* color: #BE8664 !important; */
 }
 
@@ -306,14 +308,14 @@ cursor: pointer;
 
     .character-voice {
         position: absolute;
-        float: left;
+        float: right;
         margin: 0;
-        margin-left: 28vw;
-        margin-top: 2vw;
+        margin-left: 29vw;
+        /* margin-top: 30vw; */
     }
 
     .character-voice img {
-        width: 4vw;
+        width: 5vw;
     }
     
     .character-info {

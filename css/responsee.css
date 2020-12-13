@@ -56,6 +56,12 @@ img {
   max-width:100%;
   width:auto;
 }
+
+.background {
+  background:rgb(243, 167, 185);
+  /* background: linear-gradient(90deg, rgba(220,78,114,1) 0%, rgba(244,187,184,1) 50%, rgba(220,78,114,1) 100%); */
+}
+
 .owl-item img, .full-img {
   max-width: none;
   width:100%;
@@ -84,8 +90,12 @@ td {border-right:1px solid #f0f0f0;}
   padding:0 0.625rem;
 }
 
-.results-table {
-  
+.results-table .active{
+  background-color:rgb(255, 168, 188);
+}
+
+.results-table .eliminated{
+  background-color:rgb(216, 216, 216)
 }
 
 hr {
