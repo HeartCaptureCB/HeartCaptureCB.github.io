@@ -59,13 +59,13 @@
           </picture> -->
 
           <div class="groupshot">
-            <img src="/img/home/groupshot1.png" alt="">
+            <img id="groupshot" src="/img/home/groupshot1.png" alt="">
           </div>
           <div class="home-gui">
-            <div class="round-status">
-              <p>Registration Open</p>
-                <!-- <h1 class="texttext-size-50 text-line-height-1 margin-bottom-20">Registration Open</h1> -->
-                <div class="countdown">
+            <div class="home-info">
+              <p class="round-status">Registration Open</p>
+              <!-- <h1 class="texttext-size-50 text-line-height-1 margin-bottom-20">Registration Open</h1> -->
+              <div class="countdown">
                 <ul>
                   <li><span id="days"></span>Days</li>
                   <li><span id="hours"></span>Hours</li>
@@ -73,28 +73,38 @@
                   <li><span id="seconds"></span>Secs</li>
                 </ul>
               </div>
-              <!-- <p id="countdown" class="text-white text-size-50 text-line-height-1 margin-bottom-20"></p> -->
-              <p id="deadline-date"></p>
-              <p id="deadline-time"></p>
-              <!-- <p><a href="#">Registry</a> • <a href="#">Twitter Interactions</a></p> -->
-              <div class="round-links">
-                <img class="arrow" src="img/home/top_arrow.png" alt=""></img>
-                <div class="round-button">
-                  <ul>
-                    <li>
-                      <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
-                      <div class="bio-text">Intro Video</div>
-                    </li>
-                    <li>
-                      <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
-                      <div class="bio-text">Registration</div>
-                    </li>
-                  </ul>
-                </div>
-                <img class="arrow" src="img/home/bottom_arrow.png" alt=""></img>
+            <!-- <p id="countdown" class="text-white text-size-50 text-line-height-1 margin-bottom-20"></p> -->
+              <div class="deadline">
+                <p id="deadline-date"></p>
+                <p id="deadline-time"></p>
               </div>
             </div>
-
+            <div>
+              <img class="arrow" src="img/home/top_arrow.png" alt=""></img>
+              <div class="links-panel">
+                <ul>
+                  <li>
+                    <a href="#">
+                     <img class="link-icon" src="/characters/img/biotag-icon.png"></img>
+                      <div class="link-text">Intro Video</div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img class="link-icon" src="/characters/img/biotag-icon.png"></img>
+                      <div class="link-text">Registration</div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                     <img class="link-icon" src="/characters/img/biotag-icon.png"></img>
+                      <div class="link-text">Group Finder</div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <img class="arrow" src="img/home/bottom_arrow.png" alt=""></img>
+            </div>
           </div>
 
         </div>
@@ -102,7 +112,7 @@
       
       
       <!-- Section 7 -->
-      <section class="section-small-padding background-dark text-center">      
+      <!-- <section class="section-small-padding background-dark text-center">      
         <div class="line">
           <h2 class="text-white text-size-20 text-m-size-40 margin-bottom-20">This is not a real game</h2>
           <div class="m-10 l-6 xl-4 center">
@@ -116,7 +126,7 @@
             </div>
           </div>                                                                                               
         </div>       
-      </section>     
+      </section>      -->
       
     </main>
     

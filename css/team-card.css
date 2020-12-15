@@ -301,7 +301,11 @@ p.team-textbox {
         display: none;
     }
 
+    .social-container a {
+        transition: .3s;
+    }
     .social-container a:hover {
         margin-top:-6px;
+        transition: .3s;
     }
 }

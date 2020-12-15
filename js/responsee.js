@@ -4,6 +4,17 @@
  * Copyright 2018, Vision Design - graphic zoo
  * Free to use under the MIT license.
 */
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    // document.getElementById("groupshot").style.marginLeft = "-6vw";
+  } else {
+    // document.getElementById("groupshot").style.marginLeft = "0";
+  }
+}
+
 jQuery(document).ready(function($) {
   //Responsee tabs
   $('.tabs').each(function(intex, element) {
