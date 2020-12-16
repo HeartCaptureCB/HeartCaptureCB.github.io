@@ -229,6 +229,7 @@ p.round-status {
         border-width: 3.5px;
         border-right: 0;
         border-radius:4px 0 0 4px;
+        padding-top: 0;
     }
 
     .links-panel .bio-text {
