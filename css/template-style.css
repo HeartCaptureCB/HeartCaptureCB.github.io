@@ -145,7 +145,7 @@ iframe {
 
 .fa {
   padding: 0px;
-  width: 50px;
+  width: 30px;
   text-align: right;
   text-decoration: none;
 }
@@ -399,9 +399,16 @@ aside.aside-left {
 .background-white, .background-white p, a.background-white, .background-white a, .background-white a:link, .background-white a:visited, .background-white a:hover, .background-white a:active {
   color: #777;
 } 
-.background-dark, .background-dark p, a.background-dark, a.background-dark:visited, a.background-dark:link, .background-dark a, .background-dark a:link, .background-dark a:visited, .background-dark a:hover, .background-dark a:active,
+.background-dark, .background-dark p, a.background-dark, a.background-dark:visited, a.background-dark:link, .background-dark a:link, .background-dark a:visited, .background-dark a:hover, .background-dark a:active,
 .primary-color-dark .background-primary, .primary-color-dark .background-primary p, .primary-color-dark a.background-primary, .primary-color-dark a.background-primary:visited, .primary-color-dark a.background-primary:link, .primary-color-dark a.background-primary:visited, .primary-color-dark .background-primary a, .primary-color-dark .background-primary a:link, .primary-color-dark .background-primary a:visited, .primary-color-dark .background-primary a:hover, .primary-color-dark .background-primary a:active {
   color: #999;
+}
+.background-dark a {
+  font-weight: bold !important;
+}
+.background-dark a:hover {
+  color: rgb(255, 66, 123)!important;
+  transition: .3s !important;
 }
 .background-white h1, .background-white h2, .background-white h3, .background-white h4, .background-white h5, .background-white h6,
 .background-white .h1, .background-white .h2, .background-white .h3, .background-white .h4, .background-white .h5, .background-white .h6, 
@@ -564,7 +571,7 @@ aside.aside-left {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .padding {
-  padding: 1.25rem!important;
+  padding: 1.5rem!important;
 }
 .padding-2x {
   padding: 2.5rem!important;

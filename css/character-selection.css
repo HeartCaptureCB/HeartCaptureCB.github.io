@@ -48,7 +48,7 @@
     margin: auto;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:769px) {
     .character-selection ul li a img {
         position: relative;
         z-index: 0;

@@ -4,7 +4,7 @@
     margin: auto;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:769px) {
 .block {
     width:60%; 
     text-align: justify; 
