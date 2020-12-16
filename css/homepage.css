@@ -9,7 +9,7 @@
 }
 
 p.round-status {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 800;
     text-transform: uppercase;
     padding: 0.5rem;
@@ -75,7 +75,7 @@ p.round-status {
 .arrow {
     display: block;
     margin: .5rem auto;
-    width: 65%;
+    width: 75%;
 }
 
 .links-panel {
@@ -83,7 +83,7 @@ p.round-status {
     margin: .5rem auto;
     /* flex-direction: column; */
     background: rgb(255, 221, 227);
-    width: 60%;
+    width: 65%;
     align-items: center;
     border-style: solid;
     border-width: 4px;
