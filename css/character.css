@@ -3,6 +3,7 @@
     z-index: 1;
     font-size: 1rem;
     margin-left: .5rem;
+    transition: 0.5s ease;
 }
 
 .character-card {
@@ -85,14 +86,25 @@
     margin: auto 1rem;
 }
 
-.character-bio img.name {
-    width: 80%;
+.voice {
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
+    text-align: center;
 }
 
-/* .character-bio p {
-    text-align: center;
-} */
+.character-bio img.name {
+    width: 80%;
+    margin: .5rem auto;
+}
+
+.character-bio p {
+    text-align: left;
+}
+
+audio {
+    margin: auto;
+}
 
 .jpn-name {
     font-size: 7vw;
@@ -102,11 +114,14 @@
 
 .cv {
     position: relative;
-    text-align: center;
     font-size: 1.3rem;
     font-weight: bold;
-    margin: .5rem 0;
+    margin: .5rem auto;
     /* color: #BE8664 !important; */
+}
+
+p.cv {
+    text-align: center;
 }
 
 .cv a {
@@ -319,8 +334,15 @@ cursor: pointer;
 
 @media screen and (min-width:769px) {
     .back {
-        margin-left: 40px;
+        margin-left: 35px;
+        transition: 0.5s ease;
     }
+
+    .back:hover {
+        margin-left: 25px;
+        transition: 0.5s;
+    }
+
     .character-card {
         display: flex;
         flex-direction: row;
@@ -375,9 +397,17 @@ cursor: pointer;
         align-items: left;
     }    
     
+    .voice {
+        display: flex;
+        flex-direction: row;
+        margin: .5rem auto;
+        text-align: center;
+    }
+
     .character-bio img.name {
         width: 50%;
         margin: 0;
+        margin-right: 0.5rem;
     }
 
     .character-bio p {
@@ -391,8 +421,13 @@ cursor: pointer;
         margin-top: .8vw;
     } */
 
+    audio {
+        margin: auto;
+    }
+
     p.cv {
         margin: .5rem;
+        /* width: 50%; */
     }
 
     .character-traits {
@@ -420,7 +455,7 @@ cursor: pointer;
 
     .character-traits .right li{
         /* width: 50%; */
-        margin-left: -1.5rem;
+        margin-left: -.6rem;
     }
     
     .bio-text {
@@ -450,6 +485,7 @@ cursor: pointer;
     .character-text p {
         line-height: auto;
         font-size: 1rem;
+        margin-bottom: 1rem;
     }
     
     .character-gallery {

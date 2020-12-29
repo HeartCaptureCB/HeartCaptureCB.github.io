@@ -77,8 +77,8 @@ table {
 }
 
 #schedule-table {
-  width:18rem;
-  margin:auto;
+  width:16rem;
+  margin:0 auto;
 }
 
 table tr td, table tr th {padding:0.625rem;}
@@ -221,6 +221,7 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
     margin:-2.5rem 0;
     width:100%;
   } 
+
 }
 .nav-text,.aside-nav-text {display:none;}
 .aside-nav a,.aside-nav a:link,.aside-nav a:visited,.aside-nav li > ul,.top-nav a,.top-nav a:link,.top-nav a:visited {
