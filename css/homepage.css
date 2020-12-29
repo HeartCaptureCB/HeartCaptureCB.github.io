@@ -156,6 +156,26 @@ p.round-status {
     padding: 0 .25rem;
 } */
 
+.embed {
+    display: flex;
+    flex-direction: column;
+}
+
+.embed .form {
+    width: 100%;
+    height: 100%;
+}
+
+.embed .registry {
+    width: 100%;
+    height: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 512px;
+}
+
 @media screen and (min-width:769px) {
     .groupshot img {
         margin-left: -6vw;
@@ -248,5 +268,25 @@ p.round-status {
         font-size: 16px;
         text-align: left;
         font-weight: bold;
+    }
+
+    .embed {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .embed .form {
+        width: 40%;
+        height: 100%;
+    }
+    
+    .embed .registry {
+        width: 60%;
+        height: 100%;
+    }
+
+    iframe {
+        width: 100%;
+        height: 512px;
     }
 }
