@@ -38,10 +38,10 @@ a, a:link, a:visited, a:hover, a:active {
   -webkit-transition:color 0.20s linear 0s;
 }  
 a:hover {color:rgb(255, 66, 123);}
-p,li,dl,blockquote,table,kbd {
+/* p,li,dl,blockquote,table,kbd {
   font-size: 0.85rem;
   line-height: 1.6;
-}
+} */
 b,strong {font-weight:700;}
 .text-center {text-align:center!important;}
 .text-right {text-align:right!important;}
@@ -116,7 +116,7 @@ hr {
   height:0; 
   margin:2.5rem auto;
 }
-li {padding:0;}
+li {padding:0.2rem 0;}
 ul,ol {padding-left:1.25rem;}
 blockquote {
   border:2px solid #f0f0f0;

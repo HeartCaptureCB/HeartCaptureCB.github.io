@@ -59,7 +59,7 @@ h6.headline, .h6.headline {
 }
 .text-size-16, .text-xxl-size-16 {
   font-size: 16px !important;
-  line-height: 1.4;
+  /* line-height: 1.4; */
 }
 .text-size-20, .text-xxl-size-20, .text-size-25, .text-xxl-size-25,.text-size-30, .text-xxl-size-30,.text-size-40, .text-xxl-size-40,.text-size-50, .text-xxl-size-50, .text-size-60, .text-xxl-size-60,.text-size-70, .text-xxl-size-70, .text-size-80, .text-xxl-size-80, .text-size-90, .text-xxl-size-90, .text-size-100, .text-xxl-size-100 {line-height: 1.4;}
 .text-size-20, .text-xxl-size-20 {font-size: 20px !important;}
