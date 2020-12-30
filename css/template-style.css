@@ -14,7 +14,7 @@ a, a:link {
   color:#777;
 }
 a:visited, a:hover, a:active { 
-color: rgb(255, 66, 123); 
+color: rgb(255, 66, 123) !important; 
 }
 
 
