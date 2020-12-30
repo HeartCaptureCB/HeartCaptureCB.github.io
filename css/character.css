@@ -335,12 +335,12 @@ cursor: pointer;
 @media screen and (min-width:769px) {
     .back {
         margin-left: 35px;
-        transition: 0.5s ease;
+        transition: 0.5s ease !important;
     }
 
     .back:hover {
         margin-left: 25px;
-        transition: 0.5s;
+        transition: 0.5s !important;
     }
 
     .character-card {
@@ -405,7 +405,7 @@ cursor: pointer;
     }
 
     .character-bio img.name {
-        width: 50%;
+        width: 65%;
         margin: 0;
         margin-right: 0.5rem;
     }

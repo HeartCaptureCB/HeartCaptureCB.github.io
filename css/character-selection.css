@@ -85,6 +85,10 @@
     /* margin: 0.2rem 0; */
 }
 
+.plot-dev p a:hover, .plot-dev-alt p a:hover {
+    color: rgb(255, 66, 123) !important; 
+}
+
 @media screen and (min-width:768px) {
     .character-selection ul li a img {
         position: relative;

@@ -76,11 +76,6 @@ table {
   width:100%;
 }
 
-#schedule-table {
-  width:16rem;
-  margin:0 auto;
-}
-
 table tr td, table tr th {padding:0.625rem;}
 table tfoot, table thead,table tr:nth-of-type(2n) {background:none repeat scroll 0 0 #f0f0f0;}
 th,table tr:nth-of-type(2n) td {border-right:1px solid #fff;}
@@ -96,6 +91,22 @@ td {border-right:1px solid #f0f0f0;}
 
 .results-table .eliminated{
   background-color:rgb(216, 216, 216)
+}
+
+#schedule-table {
+  width:22rem;
+  margin:0 auto;
+}
+
+#schedule-table tr td {
+  width: 22rem;
+}
+tr {
+  transition: 0.2s;
+}
+tr:hover {
+  background-color: rgb(255, 223, 230) !important;
+  transition: 0.2s;
 }
 
 hr {
