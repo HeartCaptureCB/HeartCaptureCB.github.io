@@ -94,12 +94,12 @@ td {border-right:1px solid #f0f0f0;}
 }
 
 #schedule-table {
-  width:22rem;
+  width:20rem;
   margin:0 auto;
 }
 
 #schedule-table tr td {
-  width: 22rem;
+  width: 20rem;
 }
 tr {
   transition: 0.2s;

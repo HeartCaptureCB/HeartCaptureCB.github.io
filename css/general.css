@@ -4,10 +4,179 @@
     margin: auto;
 }
 
-@media screen and (min-width:769px) {
-.block {
-    width:60%; 
+.block-80 {
+    width:100%; 
     text-align: justify; 
     margin: auto;
+}
+
+.quest-nametag {
+    width: 80%;
+    /* height: 20%; */
+    margin: 0 auto;
+}
+
+#secret-missions {
+    width: 50%;
+}
+
+.quest {
+    margin-bottom: 50px;
+}
+.quest .outer-border .character-text p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.quest-detail {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.quest-detail ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.quest-detail ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1px;
+    margin-top: 0.5rem;
+}
+.quest-detail ul li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.quest-detail ul li button:hover {
+    color: rgb(255, 66, 123);
+    transition: 0.2s;
+}
+
+.quest-detail ul li button:active {
+    transform: translateY(4px);
+    transition: 0.2s;
+}
+
+.quest-toggle {
+    display: flex;
+    flex-direction: row;
+    margin-left: -9px;
+}
+
+.quest-toggle .bio-icon {
+    z-index: 2;
+    height: 40px;
+    box-shadow: 0px 5px 5px grey;
+    border-radius: 100px;
+}
+
+.quest-toggle .bio-text {
+    z-index: 1;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 3px;
+    border-color: rgb(81,43,41);
+    border-left: none;
+    background-color: white;
+    height: 32px;
+    margin: auto;
+    margin-left: -1rem;
+    margin-right: 0;
+    padding: auto; 
+    padding-left: 10px;
+    padding-top: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Nunito';
+    box-shadow: 0px 5px 5px grey;
+    /* box-shadow: 0 4px grey; */
+}
+
+.quest-arrow {
+    border: solid rgb(81,43,41);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+}
+
+.quest-description {
+    display: none;
+    z-index: 0;
+    /* background-color: white; */
+    border: 1.7px solid rgb(81,43,41);
+    border-radius: 0 0 7px 7px;
+    border-top: none;
+    margin: 0;
+    margin-top: -1.4rem;
+    margin-left: 16px;
+    margin-right: 6.2px;
+    padding: 2px;
+}
+
+.quest-description p {
+    position: relative;
+    border: 2px solid #BE8664;
+    border-radius: 0 0 7px 7px;
+    border-top: none;
+    text-align: center;
+    padding: .7rem;
+    padding-top: 1.6rem;
+    line-height: 20px;
+}
+
+@media screen and (min-width:769px) {
+    .block {
+        width:60%; 
+        text-align: justify; 
+        margin: auto;
+        }
+
+    .block-80 {
+        width:80%; 
+        text-align: justify; 
+        margin: auto;
+        }
+
+    .quest-nametag {
+        width: 50%;
     }
+
+    #secret-missions {
+        width: 30%;
+    }
+
+    .quest-detail {
+        flex-direction: row;
+    }
+
+    .quest-detail ul {
+        width: 50%;
+    }
+    
+    .quest-detail .left button{
+        margin-left: 8px;
+    }
+
+    .quest-detail .right button{
+        margin-left: 20px;
+    }
+    .quest-toggle {
+        width: 100%;
+    }
+    .quest-toggle .bio-text {
+        width: 40vw;
+        margin-left: -1vw;
+    }
+
+    .quest-detail .right .quest-toggle .bio-text {
+        width: 39vw;
+    }
+
 }

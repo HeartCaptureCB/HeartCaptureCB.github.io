@@ -44,3 +44,37 @@ jQuery(document).ready(function($) {
     }
   });
 });
+
+function divToggle(elem) {
+  var box = 'quest' + elem.id;
+  var arr = 'arrow' + elem.id;
+  var x = document.getElementById(box);
+  var y = document.getElementById(arr);
+  if (x.style.display == "none" || x.style.display == "") {
+    x.style.display = "block";
+    y.style.display = "none";
+  } else {
+    x.style.display = "none";
+    y.style.display = "inline-block";
+  }
+  // if (y.style.display === "none") {
+  //   y.style.display = "inline-block";
+  // } else {
+  //   y.style.display = "none";
+  // }
+}
+
+// $(document).ready(function(){
+//   $('.text_container').addClass("hidden");
+
+//   $('.text_container').click(function() {
+//     var $this = $(this);
+
+//     if ($this.hasClass("hidden")) {
+//       $(this).removeClass("hidden").addClass("visible");
+
+//     } else {
+//       $(this).removeClass("visible").addClass("hidden");
+//     }
+//   });
+// });

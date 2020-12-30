@@ -49,14 +49,120 @@
       <section class="section-top-padding background-white">
         <div class="line text-center">
           <h2 class="text-dark text-size-50 text-m-size-40"><b>Quests</b></h2>
-          <hr class="break background-primary break-small break-center margin-bottom-50">
+          <hr class="break background-primary break-small break-center margin-bottom-10">
+          <p class="text-size-16 text-center">
+            These quests are solely for <b>Round 1</b>.
+          </p>  
+          <p class="text-size-16 margin-bottom-50 text-center">
+            (If you haven’t done so already, please go to the <a href="/judging.html"><b>Scoring Rubric</b></a> to learn about the affection point system.)
+          </p>  
         </div>
         <div class="line">      
-          <div class="m-12 l-12">
-            <h3 class="animated-element text-dark text-center text-strong text-size-25 text-line-height-1 margin-bottom-20">Round 1</h3>
-            <p class="animated-element text-size-16 slow margin-bottom-10">
-              Unconfirmed Layout. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+          <div class="block-80">
+            <div class="quest">
+              <img class="quest-nametag" src="img/quests/main_quest.png">
+              <div class="outer-border text-center">
+                <div class="character-text">
+                  <p>
+                    Creatively and tastefully incorporate the likes of your capture target into 
+                    your entry to gain affection points (AP) and improve their favorability 
+                    towards you. The more creative you are the more points you may receive! 
+                    However, incorporating likes poorly or in a similar way to previous rounds 
+                    will drastically reduce the amount of points you’ll earn no matter how 
+                    creative the idea was.
+                  </p>
+                  <p class="margin-bottom-30 text-strong">(+ 0-20 Affection Points)</p>
+                  <p>
+                      Be careful not to use anything they dislike or you’ll lose points instead!
+                  </p>
+                  <p class="text-strong">(- 0-10 Affection Points)</p>
+                </div>
+              </div>
+              <div class="quest-detail">
+                <ul class="left center">
+                  <li>
+                    <button id="q1" onclick="divToggle(this)">
+                      <span class="quest-toggle">
+                        <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
+                        <span class="bio-text">Quest Name that might be very long</span>
+                      </span>
+                      <i class="quest-arrow" id="arrowq1"></i>
+                    </button>
+                    <div class="quest-description slow" id="questq1">
+                      <p>
+                        Description of quest and details and affection points
+                        Description of quest and details and affection points
+                        Description of quest and details and affection points
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <button id="q2" onclick="divToggle(this)">
+                      <span class="quest-toggle">
+                        <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
+                        <span class="bio-text">Quest Name 2</span>
+                      </span>
+                      <i class="quest-arrow" id="arrowq2"></i>
+                    </button>
+                    <div class="quest-description" id="questq2">
+                      <p>
+                        Description of quest and details and affection points
+                        Description of quest and details and affection points
+                        Description of quest and details and affection points
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+
+                <ul class="right center">
+                  <li>
+                    <button id="q3" onclick="divToggle(this)">
+                      <span class="quest-toggle">
+                        <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
+                        <span class="bio-text">Quest Name that might be very long</span>
+                      </span>
+                      <i class="quest-arrow" id="arrowq3"></i>
+                    </button>
+                    <div class="quest-description slow" id="questq3">
+                      <p>
+                        Description of quest and details and affection points
+                        Description of quest and details and affection points
+                        Description of quest and details and affection points
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <button id="q4" onclick="divToggle(this)">
+                      <span class="quest-toggle">
+                        <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
+                        <span class="bio-text">Quest Name 2</span>
+                      </span>
+                      <i class="quest-arrow" id="arrowq4"></i>
+                    </button>
+                    <div class="quest-description" id="questq4">
+                      <p>
+                        Description of quest and details and affection points
+                        Description of quest and details and affection points
+                        Description of quest and details and affection points
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>  
+            </div>
+            <div class="quest">
+              <img class="quest-nametag" id="secret-missions" src="img/quests/secret_missions.png">
+              <div class="outer-border text-center">
+                <div class="character-text">
+                  <p>
+                      It looks like there are some secret missions you can complete 
+                      this chapter! Be careful though, it seems as though these missions 
+                      have uncertain affection point values. If the person you’re pursuing 
+                      doesn’t take too kindly to your choice of action you might end up 
+                      losing points! Do at your own risk.
+                  </p>
+                </div>
+              </div>
           </div>    
         </div>  
       </section>      
