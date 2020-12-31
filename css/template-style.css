@@ -1891,7 +1891,7 @@ a.tab-label.active-btn {
     background: #fff none repeat scroll 0 0;
     font-size: 1.1em;
     color: #512B29;
-    padding: 1em;
+    padding: 0.625rem;
   }
   .top-nav li ul li a {
     background: #f5f5f5!important;

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous">
+    </script>
+    <script> 
+      $(function(){
+      $("head").load("head.html");
+      $("#header").load("header.html"); 
+      $("#footer").load("footer.html"); 
+      });
+    </script> 
+  </head>
+
+  <body class="side-1280 background">
+    <div id="header"></div>
+    
+    <!-- MAIN -->
+    <main role="main">    
+      <!-- Header -->
+      <section class="section-top-padding background-white">
+        <div class="line text-center">
+          <h2 class="text-dark text-size-50 text-m-size-40"><b>Scoring Rubrics</b></h2>
+          <hr class="break background-primary break-small break-center margin-bottom-50">
+        </div>
+        <div class="line">      
+          <div class="block">
+            <h3 class="animated-element text-dark text-strong text-size-25 text-line-height-1 text-center margin-bottom-20">Affection System</h3>
+            <p class="animated-element text-size-16 slow margin-bottom-10">
+              The affection system is here to help you gauge a particular capture target’s fondness 
+              towards you via affection points. The more points you have, the more likely they will 
+              respond positively to you and your advances. Affection points will not affect your entry’s 
+              score whatsoever, it is purely for obtaining <a class="text-strong" href="/items.html">items</a> and story purposes. 
+            </p>
+            <p class="animated-element text-size-16 slow margin-bottom-10">
+              During entry submission you will be asked which capture target you wish to pursue. 
+              You may only choose one character and you will only gain or lose affection with that 
+              character. You can switch your target in the next chapter, but we strongly advise 
+              against it. Should you choose to switch, the affection points you gained from the 
+              previous chapter will not carry over.
+            </p>
+            <p class="animated-element text-size-16 slow margin-bottom-10">            
+              You can gain affection points from your chosen capture target in 3 ways:
+            </p>
+            <ul class="margin-bottom-10">
+              <li>Incorporating one of the capture target’s likes into your entry </li>
+              <li>Completing secret missions found in the <a class="text-strong" href="/quests.html">QUESTS</a> tab</li>
+              <li>Participating in twitter events. </li>
+            </ul>
+            <p class="animated-element text-size-16 slow margin-bottom-10">            
+              However, do take caution while trying to gain affection points. Accidentally including 
+              a dislike in your entry; taking on the wrong missions; or selecting the wrong answer 
+              during the twitter events may result in a loss of affection. Be sure to get to know 
+              your capture target well over in lore and character bios if you wish to win them over 
+              and receive a good ending.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <div id="footer"></div>
+  </body>
+</html>
