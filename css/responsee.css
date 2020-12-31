@@ -744,7 +744,7 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   }
   .top-nav li ul li a {
     background:none repeat scroll 0 0 #2b4c61;
-    padding:0.625rem;
+    padding:0.4rem;
   }
   .top-nav li ul li ul li a { background:none repeat scroll 0 0 #456274;}
   .nav-text {
@@ -757,13 +757,13 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
     text-align:center;
     vertical-align:middle;
   }
-  .nav-text:after {
+  /* .nav-text:after {
     content:"\f008";
-    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Nunito', sans-serif;
     font-family:"mfg";
     font-size:1.1rem;
     margin-left:0.5rem;
-    text-align:right;
+    text-align:right; */
   }
   .l-offset-1,.l-offset-2,.l-offset-five,.l-offset-3,.l-offset-4,.l-offset-5,.l-offset-6,.l-offset-7,.l-offset-8,.l-offset-9,.l-offset-10,.l-offset-11,.l-offset-12,
   .xl-offset-1,.xl-offset-2,.xl-offset-five,.xl-offset-3,.xl-offset-4,.xl-offset-5,.xl-offset-6,.xl-offset-7,.xl-offset-8,.xl-offset-9,.xl-offset-10,.xl-offset-11,.xl-offset-12,

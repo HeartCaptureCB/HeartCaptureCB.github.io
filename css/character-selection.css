@@ -117,7 +117,7 @@
     }
 
     .plot-dev-alt {
-        padding-left: 16vw;
+        padding-left: 18vw;
         padding-right: 8vw;
     }
 
@@ -131,8 +131,8 @@
     }
 
     .plot-dev p, .plot-dev-alt p {
-        font-size: 0.9vw;
-        line-height: 1.3vw;
+        font-size: 1.1vw;
+        line-height: 1.6vw;
         padding: 0.2rem 0;
         /* margin: 0.2rem 0; */
     }

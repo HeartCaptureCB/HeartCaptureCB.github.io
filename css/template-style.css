@@ -139,35 +139,53 @@ iframe {
 .hoverlink:hover {
   color: rgb(255, 66, 123);
 }
+
 .social {
   text-align: right;
+  font-size: 1.2rem;
 }
 
-.fa {
-  padding: 0px;
-  width: 30px;
+.fab {
+  /* width: 30px; */
   text-align: right;
   text-decoration: none;
+  transition: 0.5s;
+  background: none;
+  color: white;
 }
 
 /* Add a hover effect if you want */
-.fa:hover {
+#social-header .fab:hover, #social-footer .fab:hover {
   color: rgb(255, 66, 123);
+  transition: 0.5s;
+}
+
+#social-header .fab {
+  color: white;
+  padding: 1.9rem 0.5rem;
+}
+
+#social-footer .fab {
+  color: #999;
+  padding: 0.5rem;
 }
 
 /* Set a specific color for each brand */
 
-/* Youtube */
-.fa-youtube {
+/* .fa-youtube {
   background: none;
   color: white;
 }
 
-/* Twitter */
 .fa-twitter {
   background: none;
   color: white;
 }
+
+.fa-discord {
+  background: none;
+  color: white;
+} */
 
 /* Tables */
 table {
@@ -302,6 +320,7 @@ nav {
   background: #454545 none repeat scroll 0 0;
   color: rgba(255,255,255, 0.75);
 }
+
 ul.chevron .submenu > a::after, ul.chevron .sub-submenu > a::after, ul.chevron .aside-submenu > a::after, ul.chevron .aside-sub-submenu > a::after {
   margin: 0 0 0 0.625rem;
 }
@@ -1153,24 +1172,45 @@ form.customform input:hover, form.customform textarea:hover, form.customform sel
       max-width: 250px;
       margin: 0 auto;
     }
+
     .nav-text {
       color: #fff;
-      display: block;
-      font-size: 1.2rem;
+      display: flex;
+      flex-direction: row;
       line-height: 2.5rem;
       margin-right: 0.5rem;
-      max-width: 100%;
-      text-align: right;
       vertical-align: middle;
       position: relative;
     }
-    .nav-text::after {
-      color: #454545;
+    
+    #social-header-mobile {
+      font-size: 1.2rem;
+      width: 50%;
+      padding: 0 0.5rem;
+      text-align: left;
+    }
+
+
+    #social-header-mobile .fab {
+      color: #512B29;
+      padding: 0 0.25rem;
+    }
+    
+    .mobile-bars {
+      padding: 0 0.5rem;
+      width: 50%;
+      text-align: right;
+      color: #512B29;
+      font-size: 1.4rem;
+    }
+    /* .nav-text::after {
+      color: #512B29;
       display: inline-block;
-      font-size: 2rem;
+      font-size: 1.4rem;
+      text-align: right;
       margin-left: 0;
       margin-top: 0px;
-    }
+    } */
     .top-nav li a, .background-white .top-nav li a {
       background: #454545 none repeat scroll 0 0;
       color: #fff;
@@ -1178,6 +1218,45 @@ form.customform input:hover, form.customform textarea:hover, form.customform sel
       padding: 1em;
       text-align: center;
     }
+
+    .social {
+      text-align: center;
+      font-size: 1.2rem;
+    }
+
+    #social-header {
+      display: none;
+    }
+    
+    .fab {
+      /* width: 30px; */
+      text-align: center;
+      text-decoration: none;
+      transition: 0.5s;
+      background: none;
+      color: white;
+    }
+    
+    /* Add a hover effect if you want */
+    #social-header .fab:hover, #social-footer .fab:hover {
+      color: rgb(255, 66, 123);
+      transition: 0.5s;
+    }
+    
+    #social-header .fab {
+      color: #512B29;
+      padding: 1.9rem 0.5rem;
+    }
+    
+    #social-footer .fab {
+      color: #999;
+      padding: 0.5rem;
+    }
+
+    .footer-credit p {
+      text-align: center;
+    } 
+
     aside {
         border: none;
         padding: 0;
@@ -1629,7 +1708,7 @@ header.position-absolute {
 }
 nav {
   border-bottom: 0;
-  padding: 25px 0;
+  padding: 25px 1.5rem;
   position: relative;
   z-index: 2;
 }
@@ -1678,6 +1757,7 @@ nav.fixed .logo img {
   padding-top: 10px;
   width: calc(50% - 50px);
 }
+
 .logo img {
   margin: 0 auto;
   width: 100px;
@@ -1868,20 +1948,14 @@ a.tab-label.active-btn {
   .logo img.logo-dark {
     display:none;
   }
-  .nav-text::after {
-    color: #454545;
-  }
-
-  .nav-text::after {
-    color: #454545;
-  }
+  
   .fixed {
     position: relative;
     z-index: 10;
   }
-  .fixed .nav-text::after {
+  /* .fixed .nav-text::after {
     color: #454545;
-  }
+  } */
   .top-nav li a,.top-nav li ul li a {
     border-top: 1px solid #f5f5f5;
     color: #512B29;
@@ -1891,7 +1965,7 @@ a.tab-label.active-btn {
     background: #fff none repeat scroll 0 0;
     font-size: 1.1em;
     color: #512B29;
-    padding: 0.625rem;
+    padding: 0.4rem;
   }
   .top-nav li ul li a {
     background: #f5f5f5!important;
