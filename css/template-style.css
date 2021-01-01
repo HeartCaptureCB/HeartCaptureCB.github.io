@@ -145,6 +145,22 @@ iframe {
   font-size: 1.2rem;
 }
 
+.footer-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-credit {
+  width: 70%;
+  text-align: left;
+}
+
+#social-footer {
+  width: 30%;
+  text-align: right;
+  padding-right: 60px;
+}
+
 .fab {
   /* width: 30px; */
   text-align: right;
@@ -1217,6 +1233,17 @@ form.customform input:hover, form.customform textarea:hover, form.customform sel
       font-size: 1.1em;
       padding: 1em;
       text-align: center;
+    }
+
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .footer-credit, #social-footer {
+      width: 100%;
+      text-align: center;
+      padding: none;
     }
 
     .social {

@@ -10,6 +10,26 @@
     margin: auto;
 }
 
+#back-to-top {
+    position: fixed; 
+    bottom: 0; 
+    right: 10px; 
+    z-index: 99; 
+    border: solid;
+    border-color: rgb(213, 159, 125); 
+    border-bottom: none;
+    outline: none; 
+    cursor: pointer; 
+    border-radius: 4px 4px 0 0;
+    font-size: 18px; 
+    background: white;
+    padding: 5px 0;
+  }
+  
+#back-to-top img {
+    width: 40px;
+}
+
 .quest-nametag {
     width: 80%;
     /* height: 20%; */
@@ -143,6 +163,13 @@
         text-align: justify; 
         margin: auto;
         }
+
+    #back-to-top {
+        border-width: 2px;
+    }
+    #back-to-top img {
+        width: 60px;
+    }
 
     .quest-nametag {
         width: 50%;
