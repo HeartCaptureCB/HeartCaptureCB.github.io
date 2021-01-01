@@ -1243,7 +1243,7 @@ form.customform input:hover, form.customform textarea:hover, form.customform sel
     .footer-credit, #social-footer {
       width: 100%;
       text-align: center;
-      padding: none;
+      padding: 0;
     }
 
     .social {

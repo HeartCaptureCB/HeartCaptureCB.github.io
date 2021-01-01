@@ -92,8 +92,9 @@
     text-align: center;
 }
 
-.character-bio img.name {
+.voice .name {
     width: 80%;
+    height: 100%;
     margin: .5rem auto;
 }
 
@@ -102,7 +103,8 @@
 }
 
 audio {
-    margin: auto;
+    height: 40px;
+    margin: 0.7rem auto;
 }
 
 .jpn-name {
@@ -403,10 +405,14 @@ cursor: pointer;
         text-align: center;
     }
 
-    .character-bio img.name {
-        width: 65%;
+    .voice .name {
+        width: 60%;
         margin: 0;
         margin-right: 0.5rem;
+    }
+
+    audio {
+        width: 30%;
     }
 
     .character-bio p {

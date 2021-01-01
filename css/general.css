@@ -30,6 +30,60 @@
     width: 40px;
 }
 
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(255, 255, 255, .6);
+    color: rgb(81,43,41);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 10px;
+    text-transform: none;
+    transition: 0.1s;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.character-oneliner .tooltiptext {
+    visibility: hidden;
+    width: 170px;
+    background-color: rgba(255, 255, 255);
+    color: rgb(81,43,41);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 12px;
+    text-transform: none;
+    transition: 0.3s;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 120px;
+}
+
+.bubble-bottom-left:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 24px solid rgba(255, 255, 255);
+    border-right: 12px solid transparent;
+    border-top: 12px solid rgba(255, 255, 255);
+    border-bottom: 20px solid transparent;
+    left: 32px;
+    bottom: -24px;
+  }
+  
+.tooltip:active .tooltiptext, .character-oneliner:hover .tooltiptext{
+    visibility: visible;
+    transition: 0.3s;
+}
+
 .quest-nametag {
     width: 80%;
     /* height: 20%; */
@@ -74,12 +128,13 @@
 }
 
 .quest-detail ul li button:hover {
+    z-index:1;
     color: rgb(255, 66, 123);
     transition: 0.2s;
 }
 
 .quest-detail ul li button:active {
-    transform: translateY(4px);
+    transform: translateY(1px);
     transition: 0.2s;
 }
 
@@ -169,6 +224,25 @@
     }
     #back-to-top img {
         width: 60px;
+    }
+
+    .character-oneliner .tooltiptext {
+        visibility: hidden;
+        width: 200px;
+        background-color: rgba(255, 255, 255);
+        color: rgb(81,43,41);
+        text-align: center;
+        border-radius: 6px;
+        padding: 6px;
+        font-size: 0.9rem;
+        text-transform: none;
+        transition: 0.3s;
+      
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        left: 28%;
+        top: 120px;
     }
 
     .quest-nametag {
