@@ -1,7 +1,11 @@
 .swiper-pagination {
     position: relative;
     z-index: 1;
-    margin-bottom: -10px;
+    margin-bottom: -11px;
+}
+
+.swiper-pagination2 {
+    margin-bottom: -14px;
 }
 
 .swiper-slide {
@@ -12,7 +16,13 @@
 
 
 .swiper-container .swiper-button-prev, .swiper-container .swiper-button-next {
-    top: 34vw;
+    top: 8rem;
+    width: 10px;
+    color: rgb(255, 66, 123); 
+}
+
+.swiper2 .swiper-button-prev, .swiper2 .swiper-button-next {
+    top: 10rem;
     width: 10px;
     color: rgb(255, 66, 123); 
 }
@@ -181,14 +191,22 @@ p.team-textbox {
     .swiper-container {
         height: 320px;
     }
+
+    .swiper2 {
+        height: 360px;
+    }
     .swiper-container .swiper-button-prev, .swiper-container .swiper-button-next {
         top: 50%;
         width: 10px;
         color: rgb(255, 66, 123); 
     }
 
-    .swiper-pagination {
-        /* margin-bottom: -20px; */
+    .swiper2 .swiper-button-prev, .swiper2 .swiper-button-next {
+        top: 54%;
+    }
+
+    .swiper-pagination2 {
+        margin-bottom: 0px;
     }
     .team-card {
         position: relative;

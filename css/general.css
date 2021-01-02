@@ -22,10 +22,18 @@
     cursor: pointer; 
     border-radius: 4px 4px 0 0;
     font-size: 18px; 
-    background: white;
-    padding: 5px 0;
+    background: rgba(255, 255, 255, 0.8);
+    background: none;
+    border: none;
+    padding: 4px 0 0 0;
+    transition: 0.3s;
   }
-  
+
+#back-to-top:hover {
+    padding: 4px 0 4px 0;
+    transition: 0.3s;
+}
+
 #back-to-top img {
     width: 40px;
 }
@@ -223,7 +231,7 @@
         border-width: 2px;
     }
     #back-to-top img {
-        width: 60px;
+        width: 50px;
     }
 
     .character-oneliner .tooltiptext {

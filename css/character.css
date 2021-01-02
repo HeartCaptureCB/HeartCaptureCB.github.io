@@ -146,7 +146,8 @@ p.cv {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-top: 1px;
+    /* padding-top: 4px; */
+    justify-content: center;
 }
 
 .bio-icon {
@@ -162,11 +163,16 @@ p.cv {
     border-color: rgb(81,43,41);
     background-color: white;
     height: 32px;
-    padding: 1px 0; 
+    /* margin: auto; */
+    /* padding: 1px 0;  */
+    vertical-align: middle;
     margin-left: -.8rem;
     margin-right: 0;
     padding-left: 15px;
     width: 94vw;
+}
+
+.bio-text p {
     font-size: 13px;
     font-weight: 600;
 }
@@ -446,31 +452,35 @@ cursor: pointer;
         width: 50%;  
     }
     
+
     .character-traits ul li {
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding-top: 1px;
+        /* padding-top: 1px; */
     }
 
-    .left {
+    .character-traits ul.left {
         /* margin-left: 0; */
-        /* width: 50%; */
+        width: 60%;
+    }
+
+    .character-traits ul.right {
+        margin-left: -5%;
+        width: 45%;
     }
 
     .character-traits .right li{
         /* width: 50%; */
-        margin-left: -.6rem;
+        margin-left: 0rem;
     }
     
     .bio-text {
         z-index: 1;
         border-style: solid;
         border-width: 3.5px;
-        padding-top: .1rem; 
         margin-left: -1.5rem;
         padding-left: 1.5rem;
-        /* font-size: .5rem; */
     }
     
     .left .bio-text{
