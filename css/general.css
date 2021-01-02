@@ -35,7 +35,7 @@
 }
 
 #back-to-top img {
-    width: 40px;
+    width: 70px;
 }
 
 .tooltiptext {
@@ -230,8 +230,9 @@
     #back-to-top {
         border-width: 2px;
     }
+    
     #back-to-top img {
-        width: 50px;
+        width: 90px;
     }
 
     .character-oneliner .tooltiptext {
