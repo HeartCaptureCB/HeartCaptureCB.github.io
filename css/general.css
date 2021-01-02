@@ -16,7 +16,7 @@
     right: 10px; 
     z-index: 99; 
     border: solid;
-    border-color: rgba(213, 159, 125, 0.8); 
+    border-color: rgba(213, 159, 125, 1); 
     border-bottom: none;
     outline: none; 
     cursor: pointer; 
@@ -38,7 +38,7 @@
 }
 
 #back-to-top img {
-    width:50px;
+    width:40px;
     /* opacity: 70%; */
 }
 
@@ -236,7 +236,7 @@
     }
     
     #back-to-top img {
-        width: 70px;
+        width: 60px;
     }
 
     .character-oneliner .tooltiptext {
