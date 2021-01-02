@@ -103,7 +103,7 @@ p.round-status {
 }
 
 .links-panel ul li:hover {
-    margin-left: -1rem;
+    margin-left: -0.6rem;
     transition: 0.3s;
 }
 
