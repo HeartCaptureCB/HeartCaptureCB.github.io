@@ -273,6 +273,12 @@
     font-size: 12px;
 }
 
+.nested-table {
+    margin:0 auto;
+    width: auto;
+    transition: 0.3s;
+}
+
 .quest-description p {
     position: relative;
     border: 2px solid #BE8664;
