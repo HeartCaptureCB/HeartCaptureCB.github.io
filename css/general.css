@@ -133,6 +133,7 @@
     margin-top: 0.5rem;
 }
 .quest-detail ul li button {
+    z-index: 3;
     background: none;
     border: none;
     cursor: pointer;
@@ -140,12 +141,13 @@
 }
 
 .quest-detail ul li button:hover {
-    z-index:1;
+    z-index:3;
     color: rgb(255, 66, 123);
     transition: 0.2s;
 }
 
 .quest-detail ul li button:active {
+    z-index: 3;
     transform: translateY(1px);
     transition: 0.2s;
 }
@@ -185,6 +187,61 @@
     /* box-shadow: 0 4px grey; */
 }
 
+.rubric-category {
+    padding-left: 40%;
+}
+
+.rubric-button {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Nunito';
+    z-index: 3;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    /* margin-right: 0; */
+}
+
+
+.rubric-button-left{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Nunito';
+    z-index: 3;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    padding: 0;
+}
+
+.rubric-arrow {
+    border: solid rgb(81,43,41);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    margin: 10px;
+}
+
+.rubric-button p:hover, .rubric-button-left p:hover {
+    z-index:3;
+    color: rgb(255, 66, 123);
+    transition: 0.2s;
+}
+
+.rubric-arrow:hover {
+    border: solid rgb(255, 66, 123);
+    border-width: 0 3px 3px 0;
+}
+
 .quest-arrow {
     border: solid rgb(81,43,41);
     border-width: 0 3px 3px 0;
@@ -205,6 +262,15 @@
     margin-left: 16px;
     margin-right: 6.2px;
     padding: 2px;
+}
+
+.rubric-description {
+    display: none;
+    margin: 0 auto;
+}
+.rubric-description table {
+    text-align:center; 
+    font-size: 12px;
 }
 
 .quest-description p {

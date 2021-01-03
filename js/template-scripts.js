@@ -64,6 +64,25 @@ function divToggle(elem) {
   // }
 }
 
+function rubToggle(elem) {
+  var box = 'rubric' + elem.id;
+  var arr = 'arrow' + elem.id;
+  var x = document.getElementById(box);
+  var y = document.getElementById(arr);
+  if (x.style.display == "none" || x.style.display == "") {
+    x.style.display = "block";
+    y.style.transform = "rotate(-135deg)";
+  } else {
+    x.style.display = "none";
+    y.style.transform = "rotate(45deg)";
+  }
+  // if (y.style.display === "none") {
+  //   y.style.display = "inline-block";
+  // } else {
+  //   y.style.display = "none";
+  // }
+}
+
 // $(document).ready(function(){
 //   $('.text_container').addClass("hidden");
 
