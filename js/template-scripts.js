@@ -52,10 +52,14 @@ function divToggle(elem) {
   var y = document.getElementById(arr);
   if (x.style.display == "none" || x.style.display == "") {
     x.style.display = "block";
-    y.style.display = "none";
+    // y.style.display = "none";
+    y.style.transform = "rotate(45deg)";
+    y.style.transition = "0.2s";
   } else {
     x.style.display = "none";
-    y.style.display = "inline-block";
+    // y.style.display = "inline-block";
+    y.style.transform = "rotate(-45deg)";
+    y.style.transition = "0.2s";
   }
   // if (y.style.display === "none") {
   //   y.style.display = "inline-block";
@@ -71,10 +75,12 @@ function rubToggle(elem) {
   var y = document.getElementById(arr);
   if (x.style.display == "none" || x.style.display == "") {
     x.style.display = "block";
-    y.style.transform = "rotate(-135deg)";
+    y.style.transform = "rotate(45deg)";
+    y.style.transition = "0.2s";
   } else {
     x.style.display = "none";
-    y.style.transform = "rotate(45deg)";
+    y.style.transform = "rotate(-45deg)";
+    y.style.transition = "0.2s";
   }
   // if (y.style.display === "none") {
   //   y.style.display = "inline-block";

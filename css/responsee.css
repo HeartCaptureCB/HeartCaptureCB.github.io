@@ -90,7 +90,7 @@ td {border-right:1px solid #f0f0f0;}
 }
 
 #schedule-table {
-  width:20rem;
+  width:21rem;
   margin:0 auto;
 }
 
@@ -101,7 +101,7 @@ tr {
   transition: 0.2s;
 }
 tr:hover {
-  background-color: rgb(255, 223, 230) !important;
+  background-color: rgb(230, 230, 230) !important;
   transition: 0.2s;
 }
 

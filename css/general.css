@@ -52,7 +52,8 @@
     padding: 5px;
     font-size: 10px;
     text-transform: none;
-    transition-delay: 1s;
+    transition: 0.1s;
+    /* transition-delay: 1s; */
   
     /* Position the tooltip */
     position: absolute;
@@ -69,7 +70,7 @@
     padding: 5px;
     font-size: 12px;
     text-transform: none;
-    transition: 0.3s;
+    transition: 0.1s;
   
     /* Position the tooltip */
     position: absolute;
@@ -91,7 +92,7 @@
     bottom: -24px;
   }
   
-.tooltip:active .tooltiptext, .character-oneliner:hover .tooltiptext{
+.tooltip:hover .tooltiptext, .character-oneliner:hover .tooltiptext{
     visibility: visible;
     transition: 0.3s;
 }
@@ -143,14 +144,9 @@
 .quest-detail ul li button:hover {
     z-index:3;
     color: rgb(255, 66, 123);
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
-.quest-detail ul li button:active {
-    z-index: 3;
-    transform: translateY(1px);
-    transition: 0.2s;
-}
 
 .quest-toggle {
     display: flex;
@@ -161,7 +157,7 @@
 .quest-toggle .bio-icon {
     z-index: 2;
     height: 40px;
-    box-shadow: 0px 5px 5px grey;
+    /* box-shadow: 0px 5px 5px grey; */
     border-radius: 100px;
 }
 
@@ -183,7 +179,7 @@
     font-size: 16px;
     font-weight: 600;
     font-family: 'Nunito';
-    box-shadow: 0px 5px 5px grey;
+    /* box-shadow: 0px 5px 5px grey; */
     /* box-shadow: 0 4px grey; */
 }
 
@@ -227,7 +223,8 @@
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
-    transform: rotate(45deg);
+    transform: rotate(-45deg);
+    transition: 0.2s;
     margin: 10px;
 }
 
@@ -247,7 +244,13 @@
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
-    transform: rotate(45deg);
+    transform: rotate(-45deg);
+    margin: 1px;
+    transition: 0.2s;
+}
+
+.quest-toggle:hover .quest-arrow {
+    border-color: rgb(255, 66, 123);
 }
 
 .quest-description {
@@ -268,6 +271,7 @@
     display: none;
     margin: 0 auto;
 }
+
 .rubric-description table {
     text-align:center; 
     font-size: 12px;
@@ -276,7 +280,6 @@
 .nested-table {
     margin:0 auto;
     width: auto;
-    transition: 0.3s;
 }
 
 .quest-description p {
