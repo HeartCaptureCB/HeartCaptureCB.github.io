@@ -57,13 +57,6 @@
     margin-top: 1rem;
 }
 
-.twitter {
-    border: 2px dashed rgb(255, 66, 123);
-    padding: 1em;
-    margin-top: 1em;
-    text-align: center;
-}
-
 .main-column {
     border: 2px dashed rgb(255, 66, 123);
     padding: 1em;
@@ -73,6 +66,12 @@
 
 .gossip {
     margin-top: 50px;
+}
+
+#twitter-announce {
+    padding: 1em;
+    margin-top: 1em;
+    text-align: center;
 }
 
 @media screen and (min-width:769px) {

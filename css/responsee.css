@@ -89,14 +89,16 @@ td {border-right:1px solid #f0f0f0;}
   background-color:rgb(216, 216, 216)
 }
 
-#schedule-table {
+/* .schedule-table {
   width:21rem;
+  width: auto;
   margin:0 auto;
-}
+} */
 
-#schedule-table tr td {
+/* #schedule-table tr td {
   width: 20rem;
-}
+} */
+
 tr {
   transition: 0.2s;
 }

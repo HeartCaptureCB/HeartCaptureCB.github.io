@@ -163,6 +163,7 @@ p.round-status {
 .embed {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .embed .form{
@@ -179,6 +180,7 @@ iframe.home-embed {
     width: 100%;
     height: 512px;
 }
+
 
 @media screen and (min-width:769px) {
     .groupshot img {
@@ -277,6 +279,7 @@ iframe.home-embed {
     .embed {
         display: flex;
         flex-direction: row;
+        margin: 0 auto;
     }
 
     .embed .form {
