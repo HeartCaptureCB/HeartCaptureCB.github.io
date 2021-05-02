@@ -5,7 +5,7 @@
         day = hour * 24;
 
   // let birthday = "Jan 5, 2021 00:00:00 GMT",
-  let birthdate = "Apr 8, 2021",
+  let birthdate = "June 23, 2021",
       birthtime = " 23:59:59 GMT+1"
       birthday = birthdate + birthtime,
       countDown = new Date(birthday).getTime(),

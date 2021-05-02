@@ -102,38 +102,111 @@
             <div class="quest">
               <img class="quest-nametag" id="secret-missions" src="img/quests/secret_missions.png">
               <p class="text-size-16 text-center margin-top-10">
-                  These secret missions are solely for <b>Chapter 1</b>.
+                  These secret missions are solely for <b>Chapter 2</b>.
                 </p>  
               <div class="outer-border text-center">
                 <div class="character-text">
                   <p class="margin-bottom-10">
                       It looks like there are some secret missions you can complete 
-                      this chapter! Be careful though, it seems as though these missions 
-                      have uncertain affection point values. If the person you’re pursuing 
-                      doesn’t take too kindly to your choice of action you might end up 
-                      losing points! Do at your own risk.
+                      this chapter! 
                   </p>
                   <p class="text-strong">
-                    <a href="https://docs.google.com/document/d/1Uy6uh8F7ozlUD_BFe4DWQjqgWzdbs4M_734KqYJktec/edit?usp=sharing">
+                    <a href="https://docs.google.com/document/d/13hr-M1i5m9LShjuPaCDiErNsvrxbzU06Te8-Q-q3y_o/edit?usp=sharing">
                       [Proof of Completion Template]
                     </a>
                   </p>
                 </div>
-              </div>
+              </div>    
+              
+              <h2 class="text-dark text-size-25 text-m-size-25 text-center margin-top-20"><b>General Quests</b></h2>
+              <div class="quest-detail">
+                  <ul class="left center">
+                    <li>
+                      <button id="q0" onclick="divToggle(this)">
+                        <span class="quest-toggle">
+                          <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
+                          <span class="bio-text">A Special Occasion
+                            <i class="quest-arrow" id="arrowq0"></i>
+                          </span>
+                        </span>
+                      </button>
+                      <div class="quest-description slow" id="questq0">
+                        <p>
+                            Choose a song that was released in the month your capture target was born in (+5 AP)
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <!-- <button id="q01" onclick="divToggle(this)">
+                        <span class="quest-toggle">
+                          <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
+                          <span class="bio-text">Significant Words                                                     
+                            <i class="quest-arrow" id="arrowq01"></i>
+                          </span>
+                        </span>
+                      </button>
+                      <div class="quest-description" id="questq01">
+                        <p>
+                          Lip-sync art for at least 1 second (+5 Affection Points)
+                        </p>
+                      </div> -->
+                    </li>
+                  </ul>
+  
+                  <ul class="right center">
+                    <li>
+                      <button id="q01" onclick="divToggle(this)">
+                        <span class="quest-toggle">
+                          <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
+                          <span class="bio-text">Just For You                                                   
+                            <i class="quest-arrow" id="arrowq01"></i>
+                          </span>
+                        </span>
+                      </button>
+                      <div class="quest-description slow" id="questq01">
+                        <p>
+                            Include one or more of the following on your entry (can be audio or visual, up to 10 AP): your target’s favourite colours, birthstone, birth flower or star sign.
+                            All this information can be found on <a href="/characters.html"><b>the character cards</b></a>.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <!-- <button id="q4" onclick="divToggle(this)">
+                        <span class="quest-toggle">
+                          <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
+                          <span class="bio-text">A Fallen Star                         
+                            <i class="quest-arrow" id="arrowq4"></i>
+                          </span>
+                        </span>
+                      </button>
+                      <div class="quest-description" id="questq4">
+                        <p>
+                          Draw all sprites in a non-standing pose (+5 Affection Points)
+                        </p>
+                      </div> -->
+                    </li>
+                  </ul>
+                </div> 
+              
+              <h2 class="text-dark text-size-25 text-m-size-25 text-center margin-top-20"><b>Character Quests</b></h2>
+              <p class="text-size-16 text-center margin-top-10">
+                  Please refer to the Proof of Completion Template for more details.
+                </p>  
               <div class="quest-detail">
                 <ul class="left center">
+                  <h3 class="text-dark text-size-20 text-m-size-20 text-center margin-top-20"><b>Ryou</b></h3>
                   <li>
                     <button id="q1" onclick="divToggle(this)">
                       <span class="quest-toggle">
                         <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
-                        <span class="bio-text">Audience Voluntold
+                        <span class="bio-text">Verbal Brawl
                           <i class="quest-arrow" id="arrowq1"></i>
                         </span>
                       </span>
                     </button>
                     <div class="quest-description slow" id="questq1">
                       <p>
-                        Include the capture target that you’re aiming for in your video. (??? Affection Points)
+                        Include at least 15 seconds of overlapping vocals in your entry (+5 Affection Points)
                       </p>
                     </div>
                   </li>
@@ -141,33 +214,35 @@
                     <button id="q2" onclick="divToggle(this)">
                       <span class="quest-toggle">
                         <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
-                        <span class="bio-text">Make your own Decorations                          
+                        <span class="bio-text">Significant Words                                                     
                           <i class="quest-arrow" id="arrowq2"></i>
                         </span>
                       </span>
                     </button>
                     <div class="quest-description" id="questq2">
                       <p>
-                        Draw your own backgrounds and props. (??? Affection Points)
-                        <i>(Props created for this quest will be judged in your art score)</i>
+                        Lip-sync art for at least 1 second (+5 Affection Points)
                       </p>
                     </div>
                   </li>
                 </ul>
 
+                <div class="vl"></div>
+
                 <ul class="right center">
+                  <h3 class="text-dark text-size-20 text-m-size-20 text-center margin-top-20"><b>Emi</b></h3>
                   <li>
                     <button id="q3" onclick="divToggle(this)">
                       <span class="quest-toggle">
                         <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
-                        <span class="bio-text">Name Drop                          
+                        <span class="bio-text">Competitive Atmosphere                                                    
                           <i class="quest-arrow" id="arrowq3"></i>
                         </span>
                       </span>
                     </button>
                     <div class="quest-description slow" id="questq3">
                       <p>
-                        Refer to the capture target by name with voice acting or text. (??? Affection Points)
+                        Include an original fanchant in your entry (+5 Affection Points)
                       </p>
                     </div>
                   </li>
@@ -175,21 +250,199 @@
                     <button id="q4" onclick="divToggle(this)">
                       <span class="quest-toggle">
                         <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
-                        <span class="bio-text">Special Lights                          
+                        <span class="bio-text">A Fallen Star                         
                           <i class="quest-arrow" id="arrowq4"></i>
                         </span>
                       </span>
                     </button>
                     <div class="quest-description" id="questq4">
                       <p>
-                        Use 5 or less colours across all your sprites, including hair and eye colours. Shades of colours are allowed. (??? Affection Points) 
-                        <i>(Black and white do not count as colours for this quest)</i> 
-                        [<a href="https://twitter.com/HeartCaptureCB/status/1361654856596025344">See Example</a>]
+                        Draw all sprites in a non-standing pose (+5 Affection Points)
                       </p>
                     </div>
                   </li>
                 </ul>
               </div>  
+
+              <div class="quest-detail">
+                <ul class="left center">
+                  <h3 class="text-dark text-size-20 text-m-size-20 text-center margin-top-20"><b>Itsuki</b></h3>
+                  <li>
+                    <button id="q5" onclick="divToggle(this)">
+                      <span class="quest-toggle">
+                        <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
+                        <span class="bio-text">An Unusual Perspective
+                          <i class="quest-arrow" id="arrowq5"></i>
+                        </span>
+                      </span>
+                    </button>
+                    <div class="quest-description slow" id="questq5">
+                      <p>
+                        Include tasteful asymmetric panning in your entry for at least 5 seconds (+5 Affection Points)
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <button id="q6" onclick="divToggle(this)">
+                      <span class="quest-toggle">
+                        <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
+                        <span class="bio-text">Drawn to Life                    
+                          <i class="quest-arrow" id="arrowq6"></i>
+                        </span>
+                      </span>
+                    </button>
+                    <div class="quest-description" id="questq6">
+                      <p>
+                        Include real life footage filmed by one of your teammates in your entry’s video for a minimum of 5 seconds (+5 Affection Points)
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+
+                <div class="vl"></div>
+
+                <ul class="right center">
+                  <h3 class="text-dark text-size-20 text-m-size-20 text-center margin-top-20"><b>Kaoru</b></h3>
+                  <li>
+                    <button id="q7" onclick="divToggle(this)">
+                      <span class="quest-toggle">
+                        <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
+                        <span class="bio-text">Fabricholic                         
+                          <i class="quest-arrow" id="arrowq7"></i>
+                        </span>
+                      </span>
+                    </button>
+                    <div class="quest-description slow" id="questq7">
+                      <p>
+                        Include at least five different patterns and textures in your visuals (+5 Affection Points)
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <button id="q8" onclick="divToggle(this)">
+                      <span class="quest-toggle">
+                        <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
+                        <span class="bio-text">Something Amiss                      
+                          <i class="quest-arrow" id="arrowq8"></i>
+                        </span>
+                      </span>
+                    </button>
+                    <div class="quest-description" id="questq8">
+                      <p>
+                        Include distortion, filters and/or vocal chops in your audio for at least 5 seconds (+5 Affection Points)
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>  
+
+              <div class="quest-detail">
+                <ul class="left center">
+                  <h3 class="text-dark text-size-20 text-m-size-20 text-center margin-top-20"><b>Kei</b></h3>
+                  <li>
+                    <button id="q9" onclick="divToggle(this)">
+                      <span class="quest-toggle">
+                        <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
+                        <span class="bio-text">No. 1 Student
+                          <i class="quest-arrow" id="arrowq9"></i>
+                        </span>
+                      </span>
+                    </button>
+                    <div class="quest-description slow" id="questq9">
+                      <p>
+                        Give all your sprites matching outfits (+5 Affection Points)
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <button id="q10" onclick="divToggle(this)">
+                      <span class="quest-toggle">
+                        <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
+                        <span class="bio-text">Solitude                   
+                          <i class="quest-arrow" id="arrowq10"></i>
+                        </span>
+                      </span>
+                    </button>
+                    <div class="quest-description" id="questq10">
+                      <p>
+                        Do not include group parts (parts with three or more different people singing at a time) in your entry (+5 Affection Points)
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+
+                <!-- <div class="vl"></div>
+
+                <ul class="right center">
+                  <h3 class="text-dark text-size-20 text-m-size-20 text-center margin-top-20"><b>Ryou</b></h3>
+                  <li>
+                    <button id="q11" onclick="divToggle(this)">
+                      <span class="quest-toggle">
+                        <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
+                        <span class="bio-text"> Adrenaline Rush                       
+                          <i class="quest-arrow" id="arrowq11"></i>
+                        </span>
+                      </span>
+                    </button>
+                    <div class="quest-description slow" id="questq11">
+                      <p>   
+                        Get your blood pumping by choosing a song that’s at least 120 BPM (+2 Affection Points)
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <button id="q12" onclick="divToggle(this)">
+                      <span class="quest-toggle">
+                        <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
+                        <span class="bio-text">Significant Words                          
+                          <i class="quest-arrow" id="arrowq12"></i>
+                        </span>
+                      </span>
+                    </button>
+                    <div class="quest-description" id="questq12">
+                      <p>
+                        Lip-sync art for at least 3 seconds (+8 Affection Points)
+                      </p>
+                    </div>
+                  </li>
+                </ul> -->
+              </div>  
+
+              <!-- <div class="quest-detail">
+                <ul class="left center">
+                  <h3 class="text-dark text-size-20 text-m-size-20 text-center margin-top-20"><b>Yuuto</b></h3>
+                  <li>
+                    <button id="q13" onclick="divToggle(this)">
+                      <span class="quest-toggle">
+                        <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
+                        <span class="bio-text">Complex emotions
+                          <i class="quest-arrow" id="arrowq13"></i>
+                        </span>
+                      </span>
+                    </button>
+                    <div class="quest-description slow" id="questq13">
+                      <p>
+                        Give all your sprites multiple expressions (+6 Affection Points)
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <button id="q14" onclick="divToggle(this)">
+                      <span class="quest-toggle">
+                        <img class="bio-icon" src="/characters/img/biotag-icon.png"></img>
+                        <span class="bio-text">Two sides of the matter                   
+                          <i class="quest-arrow" id="arrowq14"></i>
+                        </span>
+                      </span>
+                    </button>
+                    <div class="quest-description" id="questq14">
+                      <p>
+                        Make use of tasteful asymmetrical panning in your entry, for at least 5 seconds (+4 Affection Points)
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>   -->
           </div>    
         </div>  
       </section>      
