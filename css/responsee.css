@@ -82,7 +82,8 @@ td {border-right:1px solid #f0f0f0;}
 }
 
 .results-table .active{
-  background-color:rgb(255, 168, 188);
+  background-color:rgb(248,185,200);
+  /* background-color:rgb(255, 168, 188); */
 }
 
 .results-table .eliminated{

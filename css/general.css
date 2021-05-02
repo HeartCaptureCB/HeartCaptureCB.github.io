@@ -115,6 +115,10 @@
     margin-bottom: 0;
 }
 
+.vl {
+    display: none;
+}
+
 .quest-detail {
     display: flex;
     flex-direction: column;
@@ -354,6 +358,13 @@ iframe.events-embed {
 
     #secret-missions {
         width: 30%;
+    }
+
+    .vl {
+        display: block;
+        border-left: 3px solid rgb(81,43,41);
+        border-radius: 10px;
+        height: auto;
     }
 
     .quest-detail {
